@@ -33,3 +33,66 @@
     background-color: #910045;
     border-color: #910045;
 }
+
+.navLi > a {
+    color:white !important;
+    padding: 0 40px!important;
+    border-right: 1px solid!important;
+    margin:15px 0;
+}
+.navLi > .last {
+    border-right: none!important;
+}
+.navLi > .last:hover {
+    border-right: none!important;
+}
+.navLi > a:hover {
+    color:#292A35 !important;
+    border-right: 1px solid white!important;
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.2);
+    float: left;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    z-index: 9;
+    border:none;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+.logo{
+    width: 200px;
+    padding: 0;
+    margin-left:80%!important;
+}
+ 
+.logo{
+    width: 200px;
+    padding: 0;
+    margin-left:80%!important;
+}
+.logo > img{
+    width: 65%;
+}
+ 
+@media only screen and (max-width: 600px) {
+    .logo{
+        margin-left:0%!important;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .logo{
+        margin-left:10%!important;
+    }
+}
+
+.colorFontDefault {
+    color:#868686
+}
+
+.containerSisBlogAndComment {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
