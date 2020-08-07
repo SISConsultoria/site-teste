@@ -59,6 +59,23 @@
             as principais estratégias corporativas, através de uma equipe altamente<br/>
             qualificada. Nossa experiência e comprometimento traduzem o alto nível
           </p>
+          <div class="row">
+            <div class="col-md-3">
+              <input type="button" class="btn btn-primary" value="SAIBA MAIS" style="height:50px; background-color:#0074F8; border-color:#0074F8" />
+            </div>
+            <div class="col-md-2">
+              <img src="./assets/basketBranco.png" alt="share" />
+            </div>
+            <div class="col-md-2">
+              <img src="./assets/facebookBranco.png" alt="share" />
+            </div>
+            <div class="col-md-2">
+              <img src="./assets/linkedinBranco.png" alt="share" />
+            </div>
+            <div class="col-md-2">
+              <img src="./assets/twitterBranco.png" alt="share" />
+            </div>
+          </div>
         </div>
       </div>
       <div class="row" style="margin-top:30px;margin-bottom: 100px">
@@ -143,22 +160,82 @@
     <div class="container" style="margin-top:80px">
       <div class="row" style="text-align:center">
         <div class="col-md-12">
-          <h2><strong>Quem é SIS?</strong></h2>
+          <h2 class="colorTitle"><strong>Quem é SIS?</strong></h2>
           <p class="colorFontDefault">
             <strong>O que nossos cliente andam dizendo?</strong>
           </p>
         </div>
-        <div class="col-md-12">
-
+        <div class="col-md-12" style="margin-left:44%">
+         <img src="./assets/picFollower.png" alt="Foto" class="img-responsive" />
+        </div>
+        <div class="col-md-12" style="margin-bottom: 50px">
+          <p class="colorFontDefault">
+            <strong>Lorem ipsum dolor sit amet, consectur adipiscing elit. Nunc sed condimentum mi, sit amet possuere ante.
+            Vestibulum ac rutrum enim, vel pulvinar diam. Curabitur ut mattis urna, quist consequat est. Integer eu malesuada
+            urna, sit amet fermentum massa. Morbi sem augue, aliquam at risus non, gravida vestibulum dui. Suspendisse.</strong>
+          </p>
+          <p>
+            <span style="color:#0074F8"><strong>Susana Pereira</strong></span> <span class="colorFontDefault">Manager</span>
+          </p>
         </div>
         <div class="col-md-12">
-          <p class="colorFontDefault" style="font-size: 20px;">
-            <strong>BLOG</strong>
+          <p class="colorTitle" style="font-size: 25px;">
+            BLOG
           </p>
-          <h2><strong>Novidades SIS</strong></h2>
+          <p class="colorTitle" style="font-size:30px"><strong>Novidades SIS</strong></p>
           <p class="colorFontDefault" style="font-size: 15px;">
             <strong>Acompanhe as novidades sobre o mundo de tecnologia e soluções SIS</strong>
           </p>
+        </div>
+      </div>
+      <div class="row" style="margin-bottom:100px; margin-top: 50px">
+        <div class="col-md-4">
+          <img src="./assets/blog-1.png" alt="blog 1" class="img-responsive" />
+          <p style="color:#0074F8;margin-top:15px">August 2, 2019</p>
+          <p class="colorTitle" style="font-size:18px"><strong>SIS realmente é o melhor lugar para se trabalhar</strong></p>
+          <p class="colorFontDefault">
+            The ongoing machination in Westminster appear to be impacting how we view our personal financial situation...
+          </p>
+          <div class="row">
+            <div class="col-md-6">
+              <span style="color:#EF4025">Leia mais</span>
+            </div>
+            <div class="col-md-6" style="text-align:right">
+              <span><img src="./assets/shareSmall.png" alt="share" /></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="./assets/blog-2.png" alt="blog 2" class="img-responsive" />
+          <p style="color:#0074F8;margin-top:15px">August 2, 2019</p>
+          <p class="colorTitle" style="font-size:18px"><strong>Conheça o nosso ambiente de trabalho</strong></p>
+          <p class="colorFontDefault">
+            British consumers have generally remained upbeat since 2016's referendum to leave the EU - partly offsetting weaker
+          </p>
+          <div class="row">
+            <div class="col-md-6">
+              <span style="color:#EF4025">Leia mais</span>
+            </div>
+            <div class="col-md-6" style="text-align:right">
+              <span><img src="./assets/shareSmall.png" alt="share" /></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="./assets/blog-3.png" alt="blog 3" class="img-responsive" />
+          <p style="color:#0074F8;margin-top:15px">August 2, 2019</p>
+          <p class="colorTitle" style="font-size:18px"><strong>Central de tecnologia Bradesco e Sis</strong></p>
+          <p class="colorFontDefault">
+            The Gfk survey showed fall across all five measures it use to calculate sentiment, with the steepest decline coming in consumers
+          </p>
+          <div class="row">
+            <div class="col-md-6">
+              <span style="color:#EF4025">Leia mais</span>
+            </div>
+            <div class="col-md-6" style="text-align:right">
+              <span><img src="./assets/shareSmall.png" alt="share" /></span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -173,6 +250,23 @@
             possuere ante. Vestibulum ac rutrum <br/>
             enim, vel pulvinar diam, Curabitur ut
           </p>
+          <div class="row" style="margin-top:30px">
+            <div class="col-md-2">
+              <img src="./assets/twitterEscuro.png" alt="share" />
+            </div>
+            <div class="col-md-2">
+              <img src="./assets/facebookEscuro.png" alt="share" />
+            </div>
+            <div class="col-md-2">
+              <img src="./assets/instagramEscuro.png" alt="share" />
+            </div>
+            <div class="col-md-2">
+              <img src="./assets/linkedinEscuro.png" alt="share" />
+            </div>
+            <div class="col-md-2">
+              <img src="./assets/pinterestEscuro.png" alt="share" />
+            </div>
+          </div>
         </div>
         <div class="col-md-3" style="margin-top:60px">
         <h4 style="color:white;margin-top:10px">Serviços</h4>
