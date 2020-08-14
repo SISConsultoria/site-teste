@@ -80,11 +80,21 @@
     .logo{
         margin-left:0%!important;
     }
+
+    .autoHeight {
+        height: auto !important;
+        padding-bottom: 10%;
+    }
 }
 
 @media screen and (max-width: 900px) and (min-width: 600px) {
     .logo{
         margin-left:10%!important;
+    }
+
+    .autoHeight {
+        height: auto !important;
+        padding-bottom: 10%;
     }
 }
 

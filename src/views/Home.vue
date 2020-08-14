@@ -109,7 +109,7 @@
           </div>
         </div>
       </div>
-      <div class="row" style="background-color:#292A35;border-bottom-left-radius: 5%;border-bottom-right-radius: 5%;height:1500px">
+      <div class="row autoHeight" style="background-color:#292A35;border-bottom-left-radius: 5%;border-bottom-right-radius: 5%;height:1500px">
         <div class="container" style="margin-top:30px">
           <div class="col-md-12" style="text-align:center">
             <h4 style="color:white;">Cases de sucesso</h4>
@@ -129,7 +129,7 @@
               <strong>O que nossos cliente andam dizendo?</strong>
             </p>
           </div>
-          <div class="col-md-12" style="margin-left:44%">
+          <div class="col-md-12" style="padding-left:44%">
           <img src="../assets/picFollower.png" alt="Foto" class="img-responsive" />
           </div>
           <div class="col-md-12" style="margin-bottom: 50px">
