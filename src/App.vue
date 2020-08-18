@@ -34,7 +34,7 @@
         <div class="container">
           <div class="col-md-3" style="margin-top: 30px">
             <img src="./assets/logEscuro.png" alt="Logo">
-            <p class="colorFontDefault">
+            <p class="colorFontDefault" style="padding-left:5%">
               Lorem ipsum dolor sit amet,<br/>
               consectur adipiscing elit. Nunc<br/>
               sed condimentum mi, sit amet<br/>
@@ -60,7 +60,7 @@
             </div>
           </div>
           <div class="col-md-3" style="margin-top:60px">
-          <h4 style="color:white;margin-top:10px">Serviços</h4>
+          <h4 style="color:white;margin-top:10px;padding-left:5%">Serviços</h4>
           <div class="row">
             <div class="col-md-12" style="margin-top:30px">
               <p class="colorFontDefault">
@@ -90,7 +90,7 @@
           </div>
           </div>
           <div class="col-md-3" style="margin-top:60px">
-            <h4 style="color:white;margin-top:10px">Contato</h4>
+            <h4 style="color:white;margin-top:10px;padding-left:5%">Contato</h4>
             <div class="row">
               <div class="col-md-12" style="margin-top:30px">
                 <p class="colorFontDefault">
@@ -107,7 +107,7 @@
             </div>
           </div>
           <div class="col-md-3" style="margin-top:60px">
-            <h4 style="color:white;margin-top:10px">Newsletter</h4>
+            <h4 style="color:white;margin-top:10px;padding-left:5%">Newsletter</h4>
             <div class="row">
               <div class="col-md-12" style="margin-top:30px">
                 <input type="text" class="form-control" placeholder="Insira seu e-mail" style="height:40px;text-align:center" maxlength="60" />

@@ -114,3 +114,12 @@
 .row{
     margin: 0;
 }
+
+.colorDark {
+    color: #666666
+}
+
+.colorDefaultSis {
+    background-color: #910045;
+    border-color: #910045;
+}
