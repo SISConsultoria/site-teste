@@ -31,7 +31,7 @@
                   <li><a class="dropdown-item" href="#">Missão, Visão e Valores</a></li>
                   <li><a class="dropdown-item" href="#">Clientes e Parceiros</a></li>
                   <li><a class="dropdown-item" href="#">Certificações e Premiações</a></li> 
-                  <li class=" dropdown dropdown-submenu ">
+                  <li class="dropdown dropdown-submenu">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Carreira
                       </a>

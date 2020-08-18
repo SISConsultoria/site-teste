@@ -190,6 +190,7 @@
   
   .dropdown-menu .dropdown-menu {
       padding-left: 20px;
+      display: block;
    }
    .dropdown-menu .dropdown-menu .dropdown-menu {
       padding-left: 30px;
