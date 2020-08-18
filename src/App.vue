@@ -21,9 +21,56 @@
           </div>  
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li class="navLi"><a href="#">Inicial</a></li>
-              <li class="navLi"><a href="#">Serviços</a></li>
-              <li class="navLi"><a href="#">Cases</a></li>
+              <li class="navLi"><a href="#">Home</a></li>
+              <li class="nav-item dropdown navLi">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Somos SIS
+                </a> 
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sobre</a></li>
+                  <li><a class="dropdown-item" href="#">Missão, Visão e Valores</a></li>
+                  <li><a class="dropdown-item" href="#">Clientes e Parceiros</a></li>
+                  <li><a class="dropdown-item" href="#">Certificações e Premiações</a></li> 
+                  <li class="dropdown dropdown-submenu">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Carreira
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Junte-se ao Time (Portal de Vagas)</a></li>
+                        <li><a class="dropdown-item" href="#">Employer branding / Atração/ Retenção de colaboradores</a></li>  
+                      </ul>
+                  </li>
+                  <li>  <a class="dropdown-item" href="#">Inova SIS (Academia, Palestras e treinamentos)</a></li>
+                  <li>  <a class="dropdown-item" href="#">Aprendizagem na SIS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown navLi">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Soluções Tecnológicas
+                </a> 
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Cloud Computing</a></li>
+                  <li><a class="dropdown-item" href="#">Soluções de BI, Big data e Analytics</a></li>
+                  <li><a class="dropdown-item" href="#">Machine learning e Deep learning</a></li>
+                  <li><a class="dropdown-item" href="#">Soluções de ERP</a></li>    
+                  <li><a class="dropdown-item" href="#">Outsystem</a></li>
+                  <li><a class="dropdown-item" href="#">Cases de Sucesso</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown navLi">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Transformação
+                </a> 
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Design Thinking (Ricardo)</a></li>
+                  <li><a class="dropdown-item" href="#">Devops</a></li>
+                  <li><a class="dropdown-item" href="#">Consultoria de Negócios</a></li>    
+                  <li><a class="dropdown-item" href="#">Mapeamento e Revisão de Processos</a></li>
+                  <li><a class="dropdown-item" href="#">UX (Ricardo)</a></li>
+                  <li><a class="dropdown-item" href="#">Transformação Digital</a></li>
+                </ul>
+              </li>
+              <li class="navLi"><a href="#">Blog</a></li>
               <li class="navLi"><a href="#" class="last">Contato</a></li>
             </ul>
           </div>
