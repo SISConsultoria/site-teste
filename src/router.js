@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/views/Home'
 import About from '@/views/About'
 import Hunting from '@/views/Hunting'
+import Talk from '@/views/Talk'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
             name: 'hunting',
             path: '/hunting',
             component: Hunting
+        },
+        {
+            name: 'talk',
+            path: '/talk',
+            component: Talk
         }
     ]
 });
