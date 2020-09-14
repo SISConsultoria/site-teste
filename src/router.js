@@ -4,6 +4,7 @@ import Home from '@/views/Home'
 import About from '@/views/About'
 import Hunting from '@/views/Hunting'
 import Talk from '@/views/Talk'
+import Academy from '@/views/Academy'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
             name: 'talk',
             path: '/talk',
             component: Talk
+        },
+        {
+            name: 'academy',
+            path: '/academy',
+            component: Academy
         }
     ]
 });
