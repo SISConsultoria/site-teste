@@ -36,9 +36,6 @@
               <div class="col-md-2">
                 <img src="../assets/linkedinBranco.png" alt="share" />
               </div>
-              <div class="col-md-2">
-                <img src="../assets/twitterBranco.png" alt="share" />
-              </div>
             </div>
           </div>
         </div>
