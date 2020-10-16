@@ -15,8 +15,8 @@
           <div class="col-md-4" v-for="blog in listBlog" :key="blog.blogId">
             <img src="../assets/blog-1.png" alt="blog 1" class="img-responsive" />
             <p style="color:#0074F8;margin-top:15px">{{blog.dateFull}}</p>
-            <p class="colorTitle" style="font-size:18px"><strong>{{blog.title}}</strong></p>
-            <p class="colorFontDefault" style="overflow-wrap: break-word;">
+            <p class="colorTitle" style="font-size:18px;height: 40px"><strong>{{blog.title}}</strong></p>
+            <p class="colorFontDefault" style="overflow-wrap: break-word;height: 60px">
               {{blog.description}}
             </p>
             <div class="row">
@@ -47,7 +47,7 @@
           this.getBlogs();
         },
         methods: {
-          getBlogs(){
+          getBlogs() {
             axios.get('api/blog')
                  .then((result) => 
                  {

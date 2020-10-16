@@ -119,27 +119,7 @@
         </div>
       </div>
       <div class="container" style="margin-top:80px">
-        <div class="row" style="text-align:center">
-          <div class="col-md-12">
-            <h2 class="colorTitle"><strong>Quem é SIS?</strong></h2>
-            <p class="colorFontDefault">
-              <strong>O que nossos cliente andam dizendo?</strong>
-            </p>
-          </div>
-          <div class="col-md-12" style="padding-left:44%">
-            <img src="../assets/picFollower.png" alt="Foto" class="img-responsive" />
-          </div>
-          <div class="col-md-12" style="margin-bottom: 50px">
-            <p class="colorFontDefault">
-              <strong>Lorem ipsum dolor sit amet, consectur adipiscing elit. Nunc sed condimentum mi, sit amet possuere ante.
-              Vestibulum ac rutrum enim, vel pulvinar diam. Curabitur ut mattis urna, quist consequat est. Integer eu malesuada
-              urna, sit amet fermentum massa. Morbi sem augue, aliquam at risus non, gravida vestibulum dui. Suspendisse.</strong>
-            </p>
-            <p>
-              <span style="color:#0074F8"><strong>Susana Pereira</strong></span> <span class="colorFontDefault">Manager</span>
-            </p>
-          </div>
-        </div>
+        <app-testemonial></app-testemonial>
         <app-blog></app-blog>
       </div>
     </div>
