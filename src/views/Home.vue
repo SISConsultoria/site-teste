@@ -6,13 +6,14 @@
         </ol>
         <div class="carousel-inner">
           <div class="item active">
-            <img src="../assets/imgCarr1.png" alt="Imagem" style="width:100%;height: 500px">
+            <img src="../assets/imgCarr1.png" alt="Imagem" style="width:100%;height: 1246px">
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-md-6">
+            <img src="../assets/otherAbout.png" />
           </div>
           <div class="col-md-6">
             <h2><strong>Somos SIS</strong></h2>
@@ -41,28 +42,33 @@
         </div>
         <div class="row" style="margin-top:30px;margin-bottom: 100px">
           <div class="col-md-6">
-            <h2><strong>Nossas Soluções</strong></h2>
-            <p class="colorFontDefault">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed<br />
-              condimentum mi, amet posuere ante. Vestibulum ac rutrum
-            </p>
+            <h2 style="padding-bottom: 100px"><strong>Nossas Soluções</strong></h2>
             <div class="row spaceParcOurSolution">
               <div class="col-md-6">
                 <img src="../assets/estrategiaNegocio.png" alt="Negocio" />
                 <h5><strong>Estratégia de negócio<br/>/tecnologia</strong></h5>
                 <p class="colorFontDefault">
-                  Lorem ipsum dolor sit amet<br/>
-                  consectur adipiscing elit.Nunc<br/>
-                  sed condimentum mi, sit amet
+                  Somos altamente qualificados e
+                  alinhados as principais práticas e 
+                  tendências.Investimos 
+                  constantemente no corpo 
+                  estratégico, gerencial e nas equipes
+                  multidisciplinares, contemplando 
+                  aspectos de negócio, técnicos e 
+                  comportamentais.
                 </p>
               </div>
               <div class="col-md-6">
                 <img src="../assets/transformacaoDigital.png" alt="Transformacao" />
                 <h5><strong>Transformação<br/>Digital</strong></h5>
                 <p class="colorFontDefault">
-                  Lorem ipsum dolor sit amet<br/>
-                  consectur adipiscing elit.Nunc<br/>
-                  sed condimentum mi, sit amet
+                  Atuamos em diversos projetos de 
+                  desenvolvimento de novas 
+                  funcionalidades, para diferentes 
+                  ativos digitais e modalidades de 
+                  serviços, bem como no 
+                  desenvolvimento ágil, web e 
+                  mobile.
                 </p>
               </div>
             </div>
@@ -71,24 +77,25 @@
                 <img src="../assets/sustentacaoAplicacao.png" alt="Sustentacao" />
                 <h5><strong>Sustentação<br/>de Aplicações</strong></h5>
                 <p class="colorFontDefault">
-                  Lorem ipsum dolor sit amet<br/>
-                  consectur adipiscing elit.Nunc<br/>
-                  sed condimentum mi, sit amet
+                  Temos um time completo de 
+                  desenvolvimento, composto por 
+                  arquitetos técnicos, product 
+                  owners, Scrum Masters, UX/UI, 
+                  desenvolvedores e engenheiros 
+                  DevOps. Assim, possibilitamos o 
+                  desenvolvimento de novos 
+                  produtos e projetos de forma ágil.
                 </p>
               </div>
               <div class="col-md-6">
                 <img src="../assets/squadDesenvolvimento.png" alt="Squad" />
                 <h5><strong>Squad de<br/>Desenvolvimento</strong></h5>
                 <p class="colorFontDefault">
-                  Lorem ipsum dolor sit amet<br/>
-                  consectur adipiscing elit.Nunc<br/>
-                  sed condimentum mi, sit amet
+                  Oferecemos uma gestão corretiva, 
+                  adaptativa e evolutiva dos sistemas 
+                  de tecnologia utilizados 
+                  diariamente em uma empresa.
                 </p>
-              </div>
-            </div>
-            <div class="row spaceParcOurSolution">
-              <div class="col-md-12">
-                <input type="button" class="btn btn-primary colorButtonSis" value="Conheça mais" id="btnConhecaMais" />
               </div>
             </div>
           </div>
@@ -98,23 +105,44 @@
         </div>
       </div>
       <div class="row" style=" background-color: #910045;border-color: #910045;">
-        <div class="container">
+        <div class="container" style="text-align:center">
           <div class="row">
-            <div class="col-md-12" style="text-align:center;margin-bottom: 80px">
-              <img src="../assets/selos.png" alt="Torre" class="img-responsive" />
+            <div class="col-md-3">
+             <img src="../assets/hourProject.png" alt="Hour" class="imgCounterDataSis" />
+             <div class="textCounterDataSis">
+               <p>
+                 +1,5 milhão de <br/>
+                 horas de projetos <br/>
+                 nos últimos 4 anos
+               </p>
+             </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="row autoHeight" style="background-color:#292A35;border-bottom-left-radius: 5%;border-bottom-right-radius: 5%;height:1500px">
-        <div class="container" style="margin-top:30px">
-          <div class="col-md-12" style="text-align:center">
-            <h4 style="color:white;">Cases de sucesso</h4>
-            <h3 style="color:white;"><strong>Soluções integradas em tecnologia para<br/>diversas áreas do mercado.</strong></h3>
-            <img src="../assets/clientes.png" alt="Torre" class="img-responsive" />
-          </div>
-          <div class="col-md-12" style="margin-top:50px;text-align:center">
-            <input type="button" class="btn btn-default" style="height:50px;width:100px;font-weight:bold" value="mais" />
+            <div class="col-md-3">
+             <img src="../assets/collaborators.png" alt="Hour" class="imgCounterDataSis" />
+             <div class="textCounterDataSis">
+               <p>
+                 +300 colaboradores
+               </p>
+             </div>
+            </div>
+            <div class="col-md-3">
+             <img src="../assets/training.png" alt="Hour" class="imgCounterDataSis" />
+             <div class="textCounterDataSis">
+               <p>
+                 +40 mil horas de <br/>
+                 treinamentos no ano
+               </p>
+             </div>
+            </div>
+            <div class="col-md-3">
+             <img src="../assets/projects.png" alt="Hour" class="imgCounterDataSis" />
+             <div class="textCounterDataSis">
+               <p>
+                 +3600 projetos nos <br/>
+                 últimos 4 anos
+               </p>
+             </div>
+            </div>
           </div>
         </div>
       </div>
