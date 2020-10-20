@@ -1,11 +1,13 @@
 <template>
   <div id="app">
      <div class="row header">
-        <div class="col-md-12" style="text-align:right">
-          <a href="#"><img alt="" src="./assets/iconTwitter.png" class="iconSocialMediaHeader" /></a>
+       <div class="col-md-6" style="">
+         <img src="./assets/iconLogoSis.png" class="iconSocialMediaHeader" style="padding-left: 15%" />
+       </div>
+       <div class="col-md-6" style="text-align:right">
+          <a href="#"><img alt="" src="./assets/iconInstagramDark.png" height="20" class="iconSocialMediaHeader" /></a>
           <a href="#"><img alt="" src="./assets/iconFacebook.png" class="iconSocialMediaHeader" /></a>
-          <a href="#"><img alt="" src="./assets/iconSkype.png" class="iconSocialMediaHeader" /></a>
-          <a href="#"><img alt="" src="./assets/iconVimeo.png" class="iconSocialMediaHeader" /></a>
+          <a href="#"><img alt="" src="./assets/iconLinkedinDark.png" height="20" class="iconSocialMediaHeader" /></a>
         </div>
       </div>
       <nav class="navbar navbar-default">
@@ -79,88 +81,65 @@
       <router-view />
       <div class="row footerSis">
         <div class="container">
-          <div class="col-md-3" style="margin-top: 30px">
+          <div class="col-md-4" style="margin-top: 30px">
             <img src="./assets/logEscuro.png" alt="Logo">
             <p class="colorFontDefault" style="padding-left:5%">
-              Lorem ipsum dolor sit amet,<br/>
-              consectur adipiscing elit. Nunc<br/>
-              sed condimentum mi, sit amet<br/>
-              possuere ante. Vestibulum ac rutrum <br/>
-              enim, vel pulvinar diam, Curabitur ut
+              SIS | Soluções Integradas de Sistemas
+              Desde 2003 Integramos tecnologia,
+              processos e pessoas para atender às
+              demandas mais desafiadoras do 
+              mercado.
             </p>
-            <div class="row" style="margin-top:30px">
-              <div class="col-md-2">
-                <img src="./assets/twitterEscuro.png" alt="share" />
-              </div>
-              <div class="col-md-2">
-                <img src="./assets/facebookEscuro.png" alt="share" />
-              </div>
-              <div class="col-md-2">
-                <img src="./assets/instagramEscuro.png" alt="share" />
-              </div>
-              <div class="col-md-2">
-                <img src="./assets/linkedinEscuro.png" alt="share" />
-              </div>
-              <div class="col-md-2">
-                <img src="./assets/pinterestEscuro.png" alt="share" />
-              </div>
-            </div>
           </div>
-          <div class="col-md-3" style="margin-top:60px">
-          <h4 style="color:white;margin-top:10px;padding-left:5%">Serviços</h4>
-          <div class="row">
-            <div class="col-md-12" style="margin-top:30px">
-              <p class="colorFontDefault">
-                Estratégia
-              </p>
-            </div>
-            <div class="col-md-12" style="margin-top:10px">
-              <p class="colorFontDefault">
-                Transformação digital
-              </p>
-            </div>
-            <div class="col-md-12" style="margin-top:10px">
-              <p class="colorFontDefault">
-                Sustentação
-              </p>
-            </div>
-            <div class="col-md-12" style="margin-top:10px">
-              <p class="colorFontDefault">
-                Desenvolvimento
-              </p>
-            </div>
-            <div class="col-md-12" style="margin-top:10px">
-              <p class="colorFontDefault">
-                Tecnologia SIS
-              </p>
-            </div>
-          </div>
-          </div>
-          <div class="col-md-3" style="margin-top:60px">
-            <h4 style="color:white;margin-top:10px;padding-left:5%">Contato</h4>
-            <div class="row">
+          <div class="col-md-4" style="margin-top:60px">
+            <h4 style="color:white;margin-top:10px;text-align:center">Serviços</h4>
+            <div class="row" style="padding-left: 36%">
               <div class="col-md-12" style="margin-top:30px">
                 <p class="colorFontDefault">
-                  Lorem ipsum dolor sit amet,<br/>
-                  consectur adipiscing elit. Nunc
+                  Estratégia
                 </p>
               </div>
-              <div class="col-md-12" style="margin-top:30px">
+              <div class="col-md-12" style="margin-top:10px">
+                <p class="colorFontDefault">
+                  Transformação digital
+                </p>
+              </div>
+              <div class="col-md-12" style="margin-top:10px">
+                <p class="colorFontDefault">
+                  Sustentação
+                </p>
+              </div>
+              <div class="col-md-12" style="margin-top:10px">
+                <p class="colorFontDefault">
+                  Desenvolvimento
+                </p>
+              </div>
+              <div class="col-md-12" style="margin-top:10px">
+                <p class="colorFontDefault">
+                  Tecnologia SIS
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="margin-top:60px">
+            <h4 style="color:white;margin-top:10px;padding-left:20%">Contato</h4>
+            <div class="row">
+              <div class="col-md-12" style="margin-top:30px;padding-left:20%">
                 <p class="colorFontDefault">
                   Email: contato@sisconsultoria.com.br<br/>
                   Fone: +55 (123) xxxx xxxx
                 </p>
               </div>
-            </div>
-          </div>
-          <div class="col-md-3" style="margin-top:60px">
-            <h4 style="color:white;margin-top:10px;padding-left:5%">Newsletter</h4>
-            <div class="row">
-              <div class="col-md-12" style="margin-top:30px">
-                <input type="text" class="form-control" placeholder="Insira seu e-mail" style="height:40px;text-align:center" maxlength="60" />
-              </div>
-              <div class="col-md-12" style="margin-top:10px">
-                <input type="button" class="btn btn-default" value="Receba novidades" style="background-color: #EF4025;border-color:#EF4025; width:100%; height:40px;color:white;font-weight: bold" />
+              <div class="row" style="padding-top:30%;padding-left:15%">
+                <div class="col-md-2">
+                  <img src="./assets/instagramEscuro.png" alt="share" />
+                </div>
+                <div class="col-md-2">
+                  <img src="./assets/facebookEscuro.png" alt="share" />
+                </div>
+                <div class="col-md-2">
+                  <img src="./assets/linkedinEscuro.png" alt="share" />
+                </div>
               </div>
             </div>
           </div>
