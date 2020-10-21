@@ -350,6 +350,21 @@
     width: 0;
 }
 
+.imgCounterDataSis {
+    padding-top: 30%;
+}
+
+.textCounterDataSis {
+
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+
 /* Clients */
 
 .liClients {
@@ -364,23 +379,23 @@
     height: auto;
     max-width:50%;
     vertical-align: middle;
- 
-  }
-  .headerClientes{
+
+}
+.headerClientes{
 
     background-image: url('~@/assets/BgClients.png');
     background-size:cover;
     min-height: 300px;
-  
-  }
 
-  .headerClientes > div {
-      padding-left: 10%;
-      padding-top: 5%;
+}
 
-  }
-  
-  .headerClientes > div > h1,p {
+.headerClientes > div {
+    padding-left: 10%;
+    padding-top: 5%;
+
+}
+
+.headerClientes > div > h1,p {
     color:white;
     font-weight: bolder;
 }
@@ -407,11 +422,11 @@
 }
 .contentImgsClientes > div {
     padding-left: 5%;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 .contentImgsParceiros > div{
     padding-left: 5%;
-    padding-top: 5%;
+   
 
 }
 .contentImgsParceiros > div> p{
@@ -419,15 +434,107 @@
     font-size: 30px;
 
 }
+.contentImgsParceiros > div > div{
+    padding-top: 5%;
+   
 
-.imgCounterDataSis {
-    padding-top: 30%;
+}
+/* Clients */
+
+
+/* Transformation */
+.headerTransformation{
+    background-image: url('~@/assets/bgTransformation.png');
+    background-size:cover;
+    min-height: 300px;
 }
 
-.textCounterDataSis {
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-    font-size: 16px;
-    width: 100%;
+
+.headerTransformation > div {
+    padding-left: 10%;
+    padding-top: 5%;
+
 }
+
+.headerTransformation > div > h1,p {
+    color:white;
+    font-weight: bolder;
+}
+
+
+.contentTransformation > div {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.contentTransformation > div> p {
+    color:#868686;
+    font-size: 20px;   
+}
+.contentTransformation > div> p:first-child{
+    color: #666666;
+    font-weight: bolder;
+}
+
+.contentTransformation1 div:first-child{
+    padding: 0 0 !important;
+}
+.contentTransformation1 div:last-child{
+    padding: 10px 30px !important;
+    color:#868686;
+    font-size: 15px;   
+}
+
+
+/* Transformation */
+
+
+/* Consulting */
+
+
+
+
+.headerConsulting{
+    background-image: url('~@/assets/BgConsultoria.png');
+    background-size:cover;
+    min-height: 300px;
+}
+
+
+.headerConsulting > div {
+    padding-left: 10%;
+    padding-top: 5%;
+
+}
+
+.headerConsulting > div > h1,p {
+    color:white;
+    font-weight: bolder;
+}
+.contentConsulting{
+    background-image: url('~@/assets/bgConsultoriaContent.png');
+    background-size:cover;
+    min-height: 500px;
+    padding-top: 50px;
+}
+
+.contentConsulting > div:first-child> div:first-child{
+    background-color: #303F60;
+    height: 150px;
+    padding: 50px 30px;
+    color:white;
+    font-size:30px;
+}
+.contentConsulting > div:last-child> div:first-child{
+    padding: 30px 30px !important;
+    color:#868686;
+    font-size: 15px; 
+    /* background-image: linear-gradient(to left rgb(255, 255, 255) ,rgba(253, 244, 244, 0)); */
+}
+
+/* Consulting */
+
+
+/* Consulting */
+
+headerDevelopment
+

@@ -6,6 +6,11 @@ import Hunting from '@/views/Hunting'
 import Talk from '@/views/Talk'
 import Academy from '@/views/Academy'
 import Clients from '@/views/Clients'
+import Transformation from '@/views/Transformation'
+import Consulting from '@/views/Consulting'
+import Development from '@/views/Development'
+
+
 
 
 Vue.use(Router)
@@ -41,6 +46,22 @@ export default new Router({
             name: 'clients',
             path: '/clients',
             component: Clients
+        },
+        {
+            name: 'transformation',
+            path: '/transformation',
+            component: Transformation
+        },
+        {
+            name: 'consulting',
+            path: '/consulting',
+            component: Consulting
+        }
+        ,
+        {
+            name: 'development',
+            path: '/development',
+            component: Development
         }
     ]
 });
