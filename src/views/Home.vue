@@ -13,29 +13,35 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="../assets/otherAbout.png" />
+            <img src="../assets/otherAbout.png" style="position: relative; top:-30px" />
           </div>
           <div class="col-md-6">
             <h2><strong>Somos SIS</strong></h2>
             <h4 style="color:#EF4025"><strong>#SomosSoluções</strong></h4>
-            <p class="colorFontDefault">
-              A SIS Consultoria é uma empresa provedora de serviços e SomosSoluções<br/>
+            <p class="colorFontDefault" style="font-weight:normal">
+              A SIS Consultoria é uma empresa provedora de serviços e soluções<br/>
               integradas de sistemas, alinhada com<br/>
               as principais estratégias corporativas, através de uma equipe altamente<br/>
               qualificada. Nossa experiência e comprometimento traduzem o alto nível
             </p>
-            <div class="row">
+            <div class="row" style="padding-top: 29%">
               <div class="col-md-3">
                 <input type="button" class="btn btn-primary" value="SAIBA MAIS" style="height:50px; background-color:#0074F8; border-color:#0074F8" />
               </div>
               <div class="col-md-2">
-                <img src="../assets/basketBranco.png" alt="share" />
+                <a v-bind:href="urlInstagram" target="_blank">
+                  <img src="../assets/instagramBackgroundWhite.png" alt="share" />
+                </a>
               </div>
               <div class="col-md-2">
-                <img src="../assets/facebookBranco.png" alt="share" />
+                 <a v-bind:href="urlFacebook" target="_blank">
+                  <img src="../assets/facebookBranco.png" alt="share" />
+                 </a>
               </div>
               <div class="col-md-2">
-                <img src="../assets/linkedinBranco.png" alt="share" />
+                 <a v-bind:href="urlLinkedin" target="_blank">
+                  <img src="../assets/linkedinBranco.png" alt="share" style="padding-top:5%" />
+                 </a>
               </div>
             </div>
           </div>
@@ -155,7 +161,14 @@
 
 <script>
     export default {
-        name: "home"
+        name: "home",
+        data: () => {
+          return {
+            urlInstagram: "https://www.instagram.com/sisconsultoriati/",
+            urlFacebook: "https://www.facebook.com/SISConsultoria1/",
+            urlLinkedin: "https://www.linkedin.com/company/sisconsultoria/mycompany/"
+          }          
+        }
     }
 </script>
 

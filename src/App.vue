@@ -5,9 +5,15 @@
          <img src="./assets/iconLogoSis.png" class="iconSocialMediaHeader" style="padding-left: 15%" />
        </div>
        <div class="col-md-6" style="text-align:right">
-          <a href="#"><img alt="" src="./assets/iconInstagramDark.png" height="20" class="iconSocialMediaHeader" /></a>
-          <a href="#"><img alt="" src="./assets/iconFacebook.png" class="iconSocialMediaHeader" /></a>
-          <a href="#"><img alt="" src="./assets/iconLinkedinDark.png" height="20" class="iconSocialMediaHeader" /></a>
+          <a v-bind:href="urlInstagram" target="_blank">
+            <img alt="" src="./assets/iconInstagramDark.png" height="20" class="iconSocialMediaHeader" />
+            </a>
+          <a v-bind:href="urlFacebook" target="_blank">
+            <img alt="" src="./assets/iconFacebook.png" class="iconSocialMediaHeader" />
+          </a>
+          <a v-bind:href="urlLinkedin" target="_blank">
+            <img alt="" src="./assets/iconLinkedinDark.png" height="20" class="iconSocialMediaHeader" />
+          </a>
         </div>
       </div>
       <nav class="navbar navbar-default">
@@ -132,13 +138,19 @@
               </div>
               <div class="row" style="padding-top:30%;padding-left:15%">
                 <div class="col-md-2">
-                  <img src="./assets/instagramEscuro.png" alt="share" />
+                  <a v-bind:href="urlInstagram">
+                    <img src="./assets/instagramEscuro.png" alt="share" />
+                  </a>
                 </div>
                 <div class="col-md-2">
-                  <img src="./assets/facebookEscuro.png" alt="share" />
+                  <a v-bind:href="urlFacebook">
+                    <img src="./assets/facebookEscuro.png" alt="share" />
+                   </a>
                 </div>
                 <div class="col-md-2">
-                  <img src="./assets/linkedinEscuro.png" alt="share" />
+                  <a v-bind:href="urlLinkedin">
+                    <img src="./assets/linkedinEscuro.png" alt="share" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -155,3 +167,16 @@
 <style>
   @import './assets/css/mainStyles.css';
 </style>
+
+<script>
+  export default {
+    name: "App",
+    data: () => {
+      return {
+        urlInstagram: "https://www.instagram.com/sisconsultoriati/",
+        urlFacebook: "https://www.facebook.com/SISConsultoria1/",
+        urlLinkedin: "https://www.linkedin.com/company/sisconsultoria/mycompany/"
+      }   
+    }
+  }
+</script>
