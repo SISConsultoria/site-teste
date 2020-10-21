@@ -5,6 +5,8 @@ import About from '@/views/About'
 import Hunting from '@/views/Hunting'
 import Talk from '@/views/Talk'
 import Academy from '@/views/Academy'
+import Clients from '@/views/Clients'
+
 
 Vue.use(Router)
 
@@ -34,6 +36,11 @@ export default new Router({
             name: 'academy',
             path: '/academy',
             component: Academy
+        },
+        {
+            name: 'clients',
+            path: '/clients',
+            component: Clients
         }
     ]
 });

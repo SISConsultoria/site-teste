@@ -11,67 +11,67 @@
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand logo" href="/"><img alt="Brand" src="./assets/logoSis.png"></a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand logo" href="/"><img alt="Brand" src="./assets/logoSis.png"></a>
           </div>  
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="navLi"><a href="#">Home</a></li>
-              <li class="nav-item dropdown navLi">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Somos SIS
+            <ul class="nav navbar-nav navbar-right navPai"> 
+               <li class="dropdown">
+                  <a href="#" class="dropdown-toggle orange" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SOMOS SIS <span class="caret"></span></a>
+                  <ul class="dropdown-menu navSomosSis">
+                    <li><a class="dropdown-item" href="#">Sobre</a></li>
+                    <li><a class="dropdown-item" href="#">Clientes e Parceiros</a></li>
+                    <li><a class="dropdown-item" href="#">Certificações e Premiações</a></li> 
+                    <li class="dropdown dropdown-submenu">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Carreira <span class="caret-right"></span>
+                        </a>
+                        <ul class="dropdown-menu navSomosSisCarreira">
+                          <li><a class="dropdown-item" href="#">Trabalhe conosco</a></li>
+                          <li><a class="dropdown-item" href="#">Employer branding </a></li>  
+                        </ul>
+                    </li>            
+                    <li><a class="dropdown-item" href="#">Aprendizagem na SIS</a></li>
+                  </ul>
+              </li>   
+              <li class="dropdown">
+                <a class="dropdown-toggle purple" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  SOLUÇÕES TECNOLÓGICAS <span class="caret"></span>
                 </a> 
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Sobre</a></li>
-                  <li><a class="dropdown-item" href="#">Missão, Visão e Valores</a></li>
-                  <li><a class="dropdown-item" href="#">Clientes e Parceiros</a></li>
-                  <li><a class="dropdown-item" href="#">Certificações e Premiações</a></li> 
-                  <li class="dropdown dropdown-submenu">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Carreira
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Junte-se ao Time (Portal de Vagas)</a></li>
-                        <li><a class="dropdown-item" href="#">Employer branding / Atração/ Retenção de colaboradores</a></li>  
-                      </ul>
-                  </li>
-                  <li>  <a class="dropdown-item" href="#">Inova SIS (Academia, Palestras e treinamentos)</a></li>
-                  <li>  <a class="dropdown-item" href="#">Aprendizagem na SIS</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown navLi">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Soluções Tecnológicas
-                </a> 
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu navSolucoes">
                   <li><a class="dropdown-item" href="#">Cloud Computing</a></li>
                   <li><a class="dropdown-item" href="#">Soluções de BI, Big data e Analytics</a></li>
                   <li><a class="dropdown-item" href="#">Machine learning e Deep learning</a></li>
                   <li><a class="dropdown-item" href="#">Soluções de ERP</a></li>    
                   <li><a class="dropdown-item" href="#">Outsystem</a></li>
                   <li><a class="dropdown-item" href="#">Cases de Sucesso</a></li>
+                  <li><a class="dropdown-item" href="#">Outsourcing</a></li>
+                  <li><a class="dropdown-item" href="#">Projetos Multiplataforma</a></li>
+                  <li><a class="dropdown-item" href="#">Sustentação de ambientes e canais</a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown navLi">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Transformação
+              <li class="dropdown">
+                <a class="dropdown-toggle pink" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  INOVAÇÃO <span class="caret"></span>
                 </a> 
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Design Thinking (Ricardo)</a></li>
+                <ul class="dropdown-menu navInovacao" >
+                  <li><a class="dropdown-item" href="#">Design Thinking</a></li>
                   <li><a class="dropdown-item" href="#">Devops</a></li>
                   <li><a class="dropdown-item" href="#">Consultoria de Negócios</a></li>    
                   <li><a class="dropdown-item" href="#">Mapeamento e Revisão de Processos</a></li>
-                  <li><a class="dropdown-item" href="#">UX (Ricardo)</a></li>
+                  <li><a class="dropdown-item" href="#">UX</a></li>
                   <li><a class="dropdown-item" href="#">Transformação Digital</a></li>
+                  <li><a class="dropdown-item" href="#">Células ágeis</a></li>
                 </ul>
               </li>
-              <li class="navLi"><a href="#">Blog</a></li>
-              <li class="navLi"><a href="#" class="last">Contato</a></li>
+              <li class="dropdown"><a href="#" class="dropdown-item lightGray">BLOG</a></li>
+              <li class="dropdown gray"><a href="#" class="dropdown-item ">CONTATO</a></li>
+              <li class="dropdown " id="navTrabalheLi"><a href="#" class="navTrabalhe">TRABALHE NA SIS</a></li>
             </ul>
           </div>
         </div>
