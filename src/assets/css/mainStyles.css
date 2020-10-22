@@ -244,7 +244,7 @@
     padding-bottom: 5%;
 }
 
-.navbar-nav>li>a{
+.navbar-nav > li > a {
     padding: 5px 15px !important;
 }
 .navSomosSis {  
@@ -253,7 +253,7 @@
     background-color:rgba(255, 165, 0, 0.7)!important; 
     
 }
-.navSomosSis> li> a {
+.navSomosSis> li > a {
     color:white !important;
     font-size:12px;
 }
@@ -350,6 +350,21 @@
     width: 0;
 }
 
+.imgCounterDataSis {
+    padding-top: 30%;
+}
+
+.textCounterDataSis {
+
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+
 /* Clients */
 
 .liClients {
@@ -364,23 +379,27 @@
     height: auto;
     max-width:50%;
     vertical-align: middle;
- 
-  }
-  .headerClientes{
+
+}
+.headerClientes{
 
     background-image: url('~@/assets/BgClients.png');
     background-size:cover;
     min-height: 300px;
-  
-  }
 
-  .headerClientes > div {
-      padding-left: 10%;
-      padding-top: 5%;
+}
 
-  }
-  
-  .headerClientes > div > h1,p {
+.headerClientes > div {
+    padding-left: 10%;
+    padding-top: 5%;
+
+}
+
+.headerClientes > div > h1 {
+    color:white;
+    font-weight: bolder;
+}
+.headerClientes > div > p {
     color:white;
     font-weight: bolder;
 }
@@ -388,7 +407,7 @@
     padding-left: 5%;
     padding-top: 5%;
 }
-.contentClientes > div> p {
+.contentClientes > div > p {
 
     color:#868686;
     font-size: 25px;
@@ -400,40 +419,267 @@
     font-size: 30px;
     
 }
-.contentImgsClientes > div> p{
+.contentImgsClientes > div > p{
     color:#868686;
     font-size: 30px;
-
 }
 .contentImgsClientes > div {
     padding-left: 5%;
-    padding-top: 5%;
+    padding-top: 3%;
 }
-.contentImgsParceiros > div{
+.contentImgsParceiros > div {
     padding-left: 5%;
-    padding-top: 5%;
-
 }
-.contentImgsParceiros > div> p{
+.contentImgsParceiros > div > p{
     color:#868686;
     font-size: 30px;
+}
+.contentImgsParceiros > div > div{
+    padding-top: 5%;
+}
+/* Clients */
+
+
+/* Transformation */
+.headerTransformation{
+    background-image: url('~@/assets/bgTransformation.png');
+    background-size:cover;
+    min-height: 300px;
+}
+
+
+.headerTransformation > div {
+    padding-left: 10%;
+    padding-top: 5%;
 
 }
 
-.imgCounterDataSis {
-    padding-top: 30%;
+.headerTransformation > div > h1 {
+    color:white;
+    font-weight: bolder;
+}
+.headerTransformation > div > p {
+    color:white;
+    font-weight: bolder;
+}
+.contentTransformation > div {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.contentTransformation > div > p {
+    color:#868686;
+    font-size: 20px;   
+}
+.contentTransformation > div> p:first-child{
+    color: #666666;
+    font-weight: bolder;
+}
+.contentTransformation1 div:first-child{
+    padding: 0 0 !important;
+}
+.contentTransformation1 div:last-child{
+    padding: 10px 30px !important;
+    color:#868686;
+    font-size: 15px;   
+}
+/* Transformation */
+
+/* Consulting */
+.headerConsulting{
+    background-image: url('~@/assets/BgConsultoria.png');
+    background-size:cover;
+    min-height: 300px;
+}
+.headerConsulting > div {
+    padding-left: 10%;
+    padding-top: 5%;
+
+}
+.headerConsulting > div > h1 {
+    color:white;
+    font-weight: bolder;
+}
+.headerConsulting > div > p {
+    color:white;
+    font-weight: bolder;
+}
+.contentConsulting{
+    background-image: url('~@/assets/bgConsultoriaContent.png');
+    background-size:cover;
+    min-height: 500px;
+    padding-top: 50px;
 }
 
-.textCounterDataSis {
-    text-align: center;
-    color: #fff;
-    font-weight: bold;
-    font-size: 16px;
-    width: 100%;
+.contentConsulting > div:first-child> div:first-child{
+    background-color: #303F60;
+    height: 150px;
+    padding: 50px 30px;
+    color:white;
+    font-size:30px;
+}
+.contentConsulting > div:last-child> div:first-child{
+    padding: 30px 30px !important;
+    color:#868686;
+    font-size: 15px; 
+    /* background-image: linear-gradient(to left rgb(255, 255, 255) ,rgba(253, 244, 244, 0)); */
+}
+
+/* Consulting */
+
+
+/* Development */
+
+.headerDevelopment {
+    background-image: url('~@/assets/bgDevelopment.png');
+    background-size:cover;
+    min-height: 300px;
+}
+.headerDevelopment > div {
+    padding-left: 10%;
+    padding-top: 5%;
+
+}
+.headerDevelopment > div > h1 {
+    color:white;
+    font-weight: bolder;
+}
+.headerDevelopment > div > p {
+    color:white;
+    font-weight: bolder;
+}
+.contentTransformation1{
+    background-image: url('~@/assets/bgDevelopmentContent.png');
+    background-repeat: no-repeat;
+    /* background-size:cover; */
+    min-height: 500px;
+    padding-top: 50px;
+    background-position-x: center;
+    background-size: auto;
+    background-size: 420px;
+    background-position-y: center;
+}
+
+/* Development */
+
+/* Agile Coaching */
+.headerAgileCoaching {
+
+    background-image: url('~@/assets/bgAgileCoaching.png');
+    background-size:cover;
+    min-height: 300px;
+}
+
+.middlePartImgVideo {
+    margin: 0px 0px;
+    background-image: url('~@/assets/tourCompanyVideo.png');
+    min-height: 700px;
+    background-position-x: center;
+}
+.contentAgileCoaching > div {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.contentAgileCoaching > div> p {
+    color:#868686;
+    font-size: 15px;   
+}
+.contentAgileCoaching > div > p:first-child
+{
+    font-size: 25px;
+    color:black;
+    padding-bottom: 20px;
+}
+
+/* SuccessCases */
+
+.headerSuccessCases {
+    background-image: url('~@/assets/BgSuccessCases.png');
+    background-size: cover;
+    min-height: 300px;
+}
+
+    .headerSuccessCases > div {
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+
+        .headerSuccessCases > div > h1 {
+            color: white;
+            font-weight: bolder;
+        }
+
+.successCasesMain {
+    padding: 35px;
+}
+
+    .successCasesMain h2 {
+        text-align: left;
+        font: normal normal 900 31px/40px Roboto;
+        letter-spacing: 0px;
+        color: #5F5F5F;
+        opacity: 1;
+    }
+
+    .successCasesMain span {
+        text-align: left;
+        font: normal normal 900 31px/40px Roboto;
+        letter-spacing: 0px;
+        color: #5F5F5F;
+        opacity: 1;
+    }
+
+    .successCasesMain p {
+        text-align: left;
+        font: normal normal normal 20px/26px Roboto;
+        letter-spacing: 0px;
+        color: #0A1034;
+        opacity: 1;
+    }
+
+.divCases {
+    border-right: 2px solid;
+    height: 100%;
+}
+
+    .divCases span {
+        text-align: center;
+        font: normal normal normal 20px/51px Roboto;
+        letter-spacing: 0px;
+        color: #5F5F5F;
+        opacity: 1;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+    }
+
+.casesLogos {
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    text-align: left;
+}
+
+    .casesLogos:hover {
+        cursor: pointer;
+    }
+
+    .casesLogos.active span {
+        color: #910045;
+    }
+
+.CasesContent {
+    padding-left: 50px;
+    display: flex;
+}
+
+.casesDesc {
+    display: none;
 }
 
 /* Vacancy */
-
 
 #vacancy-page .header{
 
@@ -516,3 +762,57 @@
 #div-result-search{
     padding: 30px;
 }
+    .casesDesc.active {
+        display: block;
+    }
+
+.bancos {
+    background-image: url('~@/assets/bancos.png');
+}
+
+    .bancos.active {
+        background-image: url('~@/assets/bancos2.png');
+    }
+
+.industria {
+    background-image: url('~@/assets/industria.png');
+}
+
+    .industria.active {
+        background-image: url('~@/assets/industria2.png');
+    }
+
+.saude {
+    background-image: url('~@/assets/saude.png');
+}
+
+    .saude.active {
+        background-image: url('~@/assets/saude2.png');
+    }
+
+.servicos {
+    background-image: url('~@/assets/servicos.png');
+}
+
+    .servicos.active {
+        background-image: url('~@/assets/servicos2.png');
+    }
+
+.varejo {
+    background-image: url('~@/assets/varejo.png');
+}
+
+    .varejo.active {
+        background-image: url('~@/assets/varejo2.png');
+    }
+
+.seguros {
+    background-image: url('~@/assets/seguros.png');
+}
+
+    .seguros.active {
+        background-image: url('~@/assets/seguros2.png');
+    }
+
+
+/* SuccessCases */

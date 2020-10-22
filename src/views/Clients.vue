@@ -46,7 +46,7 @@
                         <li class="liClients"><img src="../assets/logo_modal.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_biotronik.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_bradesco_cartoes.png" class="img-responsive inline-block imgClients"></li>
-                        <li class="liClients"><img src="../assets/logo_digicon.png" class="img-responsive inline-block imgClients"></li>
+                        <li class="liClients"><img src="../assets/logo_ccr.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_digicon.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_digicon.png" class="img-responsive inline-block imgClients"></li>      
                     </ul>
@@ -56,18 +56,18 @@
 
         <div class="row contentImgsParceiros">
             <div>
-            <p>
-                Parceiros
-            </p>
-            <div id="small-img" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
-                <ul style="list-style-type:none;"> 
-                    <li class="liClients"><img src="../assets/logo_digicon.png" class="img-responsive inline-block imgClients"></li>
-                    <li class="liClients"><img src="../assets/logo_digicon.png" class="img-responsive inline-block imgClients"></li>
-                    <li class="liClients"><img src="../assets/logo_digicon.png" class="img-responsive inline-block imgClients"></li>
-                    <li class="liClients"><img src="../assets/logo_digicon.png" class="img-responsive inline-block imgClients"></li>
-                    <li class="liClients"><img src="../assets/logo_digicon.png" class="img-responsive inline-block imgClients"></li>                    
-                </ul>
-            </div>
+                <p>
+                    Parceiros
+                </p>
+                <div id="small-img" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
+                    <ul style="list-style-type:none;"> 
+                        <li class="liClients"><img src="../assets/logo_outsystems.png" class="img-responsive inline-block imgClients"></li>
+                        <li class="liClients"><img src="../assets/logo_pega.png" class="img-responsive inline-block imgClients"></li>
+                        <li class="liClients"><img src="../assets/logo_ufla.png" class="img-responsive inline-block imgClients"></li>
+                        <li class="liClients"><img src="../assets/logo_totvs.png" class="img-responsive inline-block imgClients"></li>
+                        <li class="liClients"><img src="../assets/logo_h2o.png" class="img-responsive inline-block imgClients"></li>                    
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
