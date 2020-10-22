@@ -1,0 +1,103 @@
+/* apprenticeship */
+
+.headerApprenticeship {
+    background-image: url('~@/assets/BgApprenticeship.png');
+    background-size: cover;
+    min-height: 300px;
+}
+
+    .headerApprenticeship > div {
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+
+        .headerApprenticeship > div > h1 {
+            font-weight: bolder;
+            margin-top: 9vh;
+        }
+
+.rocket {
+    float: right;
+    width: 35vw;
+    height: 98vh;
+}
+
+.content {
+    padding: 30px 50px;
+}
+
+    .content h2 {
+        color: #000000;
+        font-size: 27px;
+        font-weight: bold;
+    }
+
+    .content p {
+        color: #5F5F5F;
+        margin-bottom: 65px;
+    }
+
+.jovemAprendiz {
+}
+
+    .jovemAprendiz h2 {
+    }
+
+    .jovemAprendiz p {
+    }
+
+    .jovemAprendiz img {
+        height: 115px;
+        width: 115px;
+        margin-right: 44px;
+    }
+
+.divDepoimentos {
+    margin-top: 45px;
+    padding: 50px;
+    background: #DFDFDF 0% 0% no-repeat padding-box;
+}
+
+.depoimento {
+    display: none;
+}
+
+    .depoimento span {
+        color: #171717;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .depoimento.active {
+        display: block;
+    }
+
+    .depoimento:before {
+        width: 0;
+        height: 0;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        border-bottom: 55px solid #DFDFDF;
+        content: "";
+        position: absolute;
+        top: 105vh;        
+        display: block;
+    }
+
+#d1:before {
+    left: 70px;
+}
+
+#d2:before {
+    left: 226px;
+}
+
+#d3:before {
+    left: 385px;
+}
+
+#d4:before {
+    left: 545px;
+}
+
+/* apprenticeship */

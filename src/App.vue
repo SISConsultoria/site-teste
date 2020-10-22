@@ -44,7 +44,7 @@
                           <li><a class="dropdown-item" href="#">Employer branding </a></li>  
                         </ul>
                     </li>            
-                    <li><a class="dropdown-item" href="#">Aprendizagem na SIS</a></li>
+                    <li><a class="dropdown-item" href="#/Apprenticeship">Aprendizagem na SIS</a></li>
                   </ul>
               </li>   
               <li class="dropdown">
@@ -163,7 +163,6 @@
       </div>
   </div>
 </template>
-
 <style>
   @import './assets/css/mainStyles.css';
 </style>
