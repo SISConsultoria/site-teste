@@ -9,12 +9,12 @@
             <div class="col-md-5 divCases">
                 <h2>Conheça nossos Cases</h2>
                 <div>
-                    <div class="col-md-4 col-sm-2 casesLogos bancos" divcontent="divBancos"><span>Bancos</span></div>
-                    <div class="col-md-4 col-sm-2 casesLogos industria" divcontent="divIndustria"><span>Indústria</span></div>
-                    <div class="col-md-4 col-sm-2 casesLogos saude" divcontent="divSaude"><span>Saúde</span></div>
-                    <div class="col-md-4 col-sm-2 casesLogos servicos active" divcontent="divServicos"><span>Serviços</span></div>
-                    <div class="col-md-4 col-sm-2 casesLogos varejo" divcontent="divVarejo"><span>Varejo</span></div>
-                    <div class="col-md-4 col-sm-2 casesLogos seguros" divcontent="divSeguros"><span>Seguros</span></div>
+                    <div class="col-md-4 col-sm-2 casesLogos bancos" divcontent="divBancos" @click="abrirDesc"><span>Bancos</span></div>
+                    <div class="col-md-4 col-sm-2 casesLogos industria" divcontent="divIndustria" @click="abrirDesc"><span>Indústria</span></div>
+                    <div class="col-md-4 col-sm-2 casesLogos saude" divcontent="divSaude" @click="abrirDesc"><span>Saúde</span></div>
+                    <div class="col-md-4 col-sm-2 casesLogos servicos active" divcontent="divServicos" @click="abrirDesc"><span>Serviços</span></div>
+                    <div class="col-md-4 col-sm-2 casesLogos varejo" divcontent="divVarejo" @click="abrirDesc"><span>Varejo</span></div>
+                    <div class="col-md-4 col-sm-2 casesLogos seguros" divcontent="divSeguros" @click="abrirDesc"><span>Seguros</span></div>
                 </div>
             </div>
             <div class="col-md-7 CasesContent">
@@ -51,20 +51,24 @@
         </div>
     </div>
 </template>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
     export default {
-        name: 'successCases'
-    }
+        name: 'successCases',
+        methods: {
+            abrirDesc(event) {
+                var element = event.currentTarget
+                var idDepoimento = element.getAttribute('divcontent');
 
-    $(document).ready(function () {
-        $(".casesLogos").on('click', function (event) {            
-            $(".casesLogos").removeClass("active");
-            $(".casesDesc").removeClass("active");            
-            $(this).addClass("active");
-            $('#' + $(this).attr('divcontent')).addClass("active");
-        });
-    });
+                var actives = document.querySelectorAll('.active');
+                actives.forEach(function (activeElement) {
+                    activeElement.classList.remove('active');
+                });
+
+                document.getElementById(idDepoimento).classList.add('active');
+                element.classList.add('active');
+            }
+        }
+    }
 </script>
 
 <style>

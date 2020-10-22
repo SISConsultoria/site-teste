@@ -6,11 +6,13 @@ import Hunting from '@/views/Hunting'
 import Talk from '@/views/Talk'
 import Academy from '@/views/Academy'
 import Clients from '@/views/Clients'
+import Vacancy from '@/views/Vacancy'
 import Transformation from '@/views/Transformation'
 import Consulting from '@/views/Consulting'
 import Development from '@/views/Development'
 import AgileCoaching from '@/views/AgileCoaching'
 import SuccessCases from '@/views/SuccessCases'
+import Apprenticeship from '@/views/Apprenticeship'
 
 Vue.use(Router)
 
@@ -70,6 +72,17 @@ export default new Router({
             name: 'successCases',
             path: '/successCases',
             component: SuccessCases
+        },
+        {
+            name: 'vacancy',
+            path: '/vacancy',
+            component: Vacancy
+        }
+        ,
+        {
+            name: 'apprenticeship',
+            path: '/apprenticeship',
+            component: Apprenticeship
         }
     ]
 });
