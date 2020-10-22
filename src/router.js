@@ -6,6 +6,7 @@ import Hunting from '@/views/Hunting'
 import Talk from '@/views/Talk'
 import Academy from '@/views/Academy'
 import Clients from '@/views/Clients'
+import Vacancy from '@/views/Vacancy'
 
 
 Vue.use(Router)
@@ -41,6 +42,11 @@ export default new Router({
             name: 'clients',
             path: '/clients',
             component: Clients
+        },
+        {
+            name: 'vacancy',
+            path: '/vacancy',
+            component: Vacancy
         }
     ]
 });
