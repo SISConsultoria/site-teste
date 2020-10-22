@@ -9,6 +9,9 @@ import Clients from '@/views/Clients'
 import Transformation from '@/views/Transformation'
 import Consulting from '@/views/Consulting'
 import Development from '@/views/Development'
+import AgileCoaching from '@/views/AgileCoaching'
+
+
 
 
 
@@ -56,12 +59,18 @@ export default new Router({
             name: 'consulting',
             path: '/consulting',
             component: Consulting
-        }
-        ,
+        },
         {
             name: 'development',
             path: '/development',
             component: Development
+        },
+        {
+            name: 'agileCoaching',
+            path: '/agileCoaching',
+            component: AgileCoaching
         }
+
+        
     ]
 });

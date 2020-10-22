@@ -244,7 +244,7 @@
     padding-bottom: 5%;
 }
 
-.navbar-nav>li>a{
+.navbar-nav > li > a {
     padding: 5px 15px !important;
 }
 .navSomosSis {  
@@ -253,7 +253,7 @@
     background-color:rgba(255, 165, 0, 0.7)!important; 
     
 }
-.navSomosSis> li> a {
+.navSomosSis> li > a {
     color:white !important;
     font-size:12px;
 }
@@ -395,7 +395,11 @@
 
 }
 
-.headerClientes > div > h1,p {
+.headerClientes > div > h1 {
+    color:white;
+    font-weight: bolder;
+}
+.headerClientes > div > p {
     color:white;
     font-weight: bolder;
 }
@@ -403,7 +407,7 @@
     padding-left: 5%;
     padding-top: 5%;
 }
-.contentClientes > div> p {
+.contentClientes > div > p {
 
     color:#868686;
     font-size: 25px;
@@ -415,7 +419,7 @@
     font-size: 30px;
     
 }
-.contentImgsClientes > div> p{
+.contentImgsClientes > div > p{
     color:#868686;
     font-size: 30px;
 }
@@ -423,10 +427,10 @@
     padding-left: 5%;
     padding-top: 3%;
 }
-.contentImgsParceiros > div{
+.contentImgsParceiros > div {
     padding-left: 5%;
 }
-.contentImgsParceiros > div> p{
+.contentImgsParceiros > div > p{
     color:#868686;
     font-size: 30px;
 }
@@ -450,17 +454,19 @@
 
 }
 
-.headerTransformation > div > h1,p {
+.headerTransformation > div > h1 {
     color:white;
     font-weight: bolder;
 }
-
-
+.headerTransformation > div > p {
+    color:white;
+    font-weight: bolder;
+}
 .contentTransformation > div {
     padding-left: 5%;
     padding-top: 5%;
 }
-.contentTransformation > div> p {
+.contentTransformation > div > p {
     color:#868686;
     font-size: 20px;   
 }
@@ -468,7 +474,6 @@
     color: #666666;
     font-weight: bolder;
 }
-
 .contentTransformation1 div:first-child{
     padding: 0 0 !important;
 }
@@ -477,30 +482,24 @@
     color:#868686;
     font-size: 15px;   
 }
-
-
 /* Transformation */
 
-
 /* Consulting */
-
-
-
-
 .headerConsulting{
     background-image: url('~@/assets/BgConsultoria.png');
     background-size:cover;
     min-height: 300px;
 }
-
-
 .headerConsulting > div {
     padding-left: 10%;
     padding-top: 5%;
 
 }
-
-.headerConsulting > div > h1,p {
+.headerConsulting > div > h1 {
+    color:white;
+    font-weight: bolder;
+}
+.headerConsulting > div > p {
     color:white;
     font-weight: bolder;
 }
@@ -540,12 +539,14 @@
     padding-top: 5%;
 
 }
-
-.headerDevelopment > div > h1,p {
+.headerDevelopment > div > h1 {
     color:white;
     font-weight: bolder;
 }
-
+.headerDevelopment > div > p {
+    color:white;
+    font-weight: bolder;
+}
 .contentTransformation1{
     background-image: url('~@/assets/bgDevelopmentContent.png');
     background-repeat: no-repeat;
@@ -559,3 +560,26 @@
 }
 
 /* Development */
+
+/* Agile Coaching */
+.headerAgileCoaching {
+
+    background-image: url('~@/assets/bgAgileCoaching.png');
+    background-size:cover;
+    min-height: 300px;
+}
+.contentAgileCoaching > div {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.contentAgileCoaching > div> p {
+    color:#868686;
+    font-size: 15px;   
+}
+.contentAgileCoaching > div > p:first-child
+{
+    font-size: 25px;
+    color:black;
+    padding-bottom: 20px;
+}
+
