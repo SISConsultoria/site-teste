@@ -559,3 +559,147 @@
 }
 
 /* Development */
+
+/* SuccessCases */
+
+.headerSuccessCases {
+    background-image: url('~@/assets/BgSuccessCases.png');
+    background-size: cover;
+    min-height: 300px;
+}
+
+    .headerSuccessCases > div {
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+
+        .headerSuccessCases > div > h1 {
+            color: white;
+            font-weight: bolder;
+        }
+
+.successCasesMain {
+    padding: 35px;
+}
+
+    .successCasesMain h2 {
+        text-align: left;
+        font: normal normal 900 31px/40px Roboto;
+        letter-spacing: 0px;
+        color: #5F5F5F;
+        opacity: 1;
+    }
+
+    .successCasesMain span {
+        text-align: left;
+        font: normal normal 900 31px/40px Roboto;
+        letter-spacing: 0px;
+        color: #5F5F5F;
+        opacity: 1;
+    }
+
+    .successCasesMain p {
+        text-align: left;
+        font: normal normal normal 20px/26px Roboto;
+        letter-spacing: 0px;
+        color: #0A1034;
+        opacity: 1;
+    }
+
+.divCases {
+    border-right: 2px solid;
+    height: 100%;
+}
+
+    .divCases span {
+        text-align: center;
+        font: normal normal normal 20px/51px Roboto;
+        letter-spacing: 0px;
+        color: #5F5F5F;
+        opacity: 1;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+    }
+
+.casesLogos {
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    text-align: left;
+}
+
+    .casesLogos:hover {
+        cursor: pointer;
+    }
+
+    .casesLogos.active span {
+        color: #910045;
+    }
+
+.CasesContent {
+    padding-left: 50px;
+    display: flex;
+}
+
+.casesDesc {
+    display: none;
+}
+
+    .casesDesc.active {
+        display: block;
+    }
+
+.bancos {
+    background-image: url('~@/assets/bancos.png');
+}
+
+    .bancos.active {
+        background-image: url('~@/assets/bancos2.png');
+    }
+
+.industria {
+    background-image: url('~@/assets/industria.png');
+}
+
+    .industria.active {
+        background-image: url('~@/assets/industria2.png');
+    }
+
+.saude {
+    background-image: url('~@/assets/saude.png');
+}
+
+    .saude.active {
+        background-image: url('~@/assets/saude2.png');
+    }
+
+.servicos {
+    background-image: url('~@/assets/servicos.png');
+}
+
+    .servicos.active {
+        background-image: url('~@/assets/servicos2.png');
+    }
+
+.varejo {
+    background-image: url('~@/assets/varejo.png');
+}
+
+    .varejo.active {
+        background-image: url('~@/assets/varejo2.png');
+    }
+
+.seguros {
+    background-image: url('~@/assets/seguros.png');
+}
+
+    .seguros.active {
+        background-image: url('~@/assets/seguros2.png');
+    }
+
+
+/* SuccessCases */
