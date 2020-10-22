@@ -10,11 +10,7 @@ import Transformation from '@/views/Transformation'
 import Consulting from '@/views/Consulting'
 import Development from '@/views/Development'
 import AgileCoaching from '@/views/AgileCoaching'
-
-
-
-
-
+import SuccessCases from '@/views/SuccessCases'
 
 Vue.use(Router)
 
@@ -69,8 +65,11 @@ export default new Router({
             name: 'agileCoaching',
             path: '/agileCoaching',
             component: AgileCoaching
+        },
+        {            
+            name: 'successCases',
+            path: '/successCases',
+            component: SuccessCases
         }
-
-        
     ]
 });

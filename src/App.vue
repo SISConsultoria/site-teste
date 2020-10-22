@@ -57,7 +57,7 @@
                   <li><a class="dropdown-item" href="#">Machine learning e Deep learning</a></li>
                   <li><a class="dropdown-item" href="#">Soluções de ERP</a></li>    
                   <li><a class="dropdown-item" href="#">Outsystem</a></li>
-                  <li><a class="dropdown-item" href="#">Cases de Sucesso</a></li>
+                  <li><a class="dropdown-item" href="#/successCases">Cases de Sucesso</a></li>
                   <li><a class="dropdown-item" href="#">Outsourcing</a></li>
                   <li><a class="dropdown-item" href="#">Projetos Multiplataforma</a></li>
                   <li><a class="dropdown-item" href="#">Sustentação de ambientes e canais</a></li>
