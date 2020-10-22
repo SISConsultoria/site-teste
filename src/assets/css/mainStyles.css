@@ -165,12 +165,13 @@
   
 /* .dropdown-submenu:hover>a:after {
     border-left-color:#555;
- }
-*/
+ } */
+
 .dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
   text-decoration: none;
-  background-color: none!important;
+  background-color: transparent !important;
 }   
+
   
 @media (max-width: 767px) {
 
@@ -305,12 +306,12 @@
 }
 .navTrabalhe{
     border-radius: 20px;
-    background-color: #910045 !important; 
+    background-color: orange !important; 
     color:white !important;
     font-size:10px;
 }
 #navTrabalheLi{
-    background-image: linear-gradient(to right, hsl(0, 0%, 40%, 1) ,hsl(0, 0%, 40%, 0));
+    background-image: linear-gradient(to right, #910045 ,hsl(0, 0%, 40%, 0));
     border-right:none !important;
 }
 .orange{
@@ -332,7 +333,10 @@
     color:white  !important;
 }
 .gray {
-    background-color: #666666 !important; 
+    /* background-color: #666666 !important;  */
+    background-color: #910045 !important; 
+
+    
     color:white  !important;
 }
 .gray > a {
@@ -582,6 +586,56 @@
     color:black;
     padding-bottom: 20px;
 }
+/* Agile Coaching */
+
+/* Agile Cells */
+
+.headeragileCells {
+
+    background-image: url('~@/assets/bgAgileCoaching.png');
+    background-size:cover;
+    min-height: 300px;
+}
+.contentagileCells > div {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.contentagileCells > div> p {
+    color:#868686;
+    font-size: 15px;   
+}
+.contentagileCells > div > p:first-child
+{
+    font-size: 25px;
+    color:black;
+    padding-bottom: 20px;
+}
+/* Agile Cells */
+
+/* Dev Ops */
+
+.headerDevOps {
+
+    background-image: url('~@/assets/bg_devops.png');
+    background-size:cover;
+    min-height: 300px;
+}
+.contentDevOps > div {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.contentDevOps > div> p {
+    color:#868686;
+    font-size: 15px;   
+}
+.contentDevOps > div > p:first-child
+{
+    font-size: 25px;
+    color:black;
+    padding-bottom: 20px;
+}
+
+/* Dev Ops */
 
 /* SuccessCases */
 
