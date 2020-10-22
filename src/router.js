@@ -6,7 +6,11 @@ import Hunting from '@/views/Hunting'
 import Talk from '@/views/Talk'
 import Academy from '@/views/Academy'
 import Clients from '@/views/Clients'
-
+import Transformation from '@/views/Transformation'
+import Consulting from '@/views/Consulting'
+import Development from '@/views/Development'
+import AgileCoaching from '@/views/AgileCoaching'
+import SuccessCases from '@/views/SuccessCases'
 
 Vue.use(Router)
 
@@ -41,6 +45,31 @@ export default new Router({
             name: 'clients',
             path: '/clients',
             component: Clients
+        },
+        {
+            name: 'transformation',
+            path: '/transformation',
+            component: Transformation
+        },
+        {
+            name: 'consulting',
+            path: '/consulting',
+            component: Consulting
+        },
+        {
+            name: 'development',
+            path: '/development',
+            component: Development
+        },
+        {
+            name: 'agileCoaching',
+            path: '/agileCoaching',
+            component: AgileCoaching
+        },
+        {            
+            name: 'successCases',
+            path: '/successCases',
+            component: SuccessCases
         }
     ]
 });
