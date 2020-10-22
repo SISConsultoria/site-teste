@@ -45,7 +45,7 @@
                   <li><a class="dropdown-item" href="#">Consultoria Estratégica</a></li>
                   <li><a class="dropdown-item" href="#">Desenvolvimento Web, Mobile e Mainframe</a></li>
                   <li><a class="dropdown-item" href="#">Sustentação de Ambientes</a></li>
-                  <li><a class="dropdown-item" href="#">Dados & Inteligência Aplicada </a></li>    
+                  <li><a class="dropdown-item" href="#">Dados e Inteligência Aplicada </a></li>    
                   <li><a class="dropdown-item" href="#">Serviços de Cloud Computing</a></li>
                   <li><a class="dropdown-item" href="#">Soluções de ERP </a></li>
                   <li><a class="dropdown-item" href="#">Soluções de Low Code (Outsystem, PEGA)</a></li>
@@ -62,7 +62,7 @@
                   <li><a class="dropdown-item" href="#">Design Thinking</a></li>
                   <li><a class="dropdown-item" href="#">Transformação Digital</a></li>    
                   <li><a class="dropdown-item" href="#">Celulas Ágeis - Squads</a></li>
-                  <li><a class="dropdown-item" href="#">User Experience & User Interface (UX/UI)</a></li>
+                  <li><a class="dropdown-item" href="#">User Experience e User Interface (UX/UI)</a></li>
                   <li><a class="dropdown-item" href="#">Devops</a></li>
                 </ul>
               </li>
@@ -161,7 +161,6 @@
       </div>
   </div>
 </template>
-
 <style>
   @import './assets/css/mainStyles.css';
 </style>

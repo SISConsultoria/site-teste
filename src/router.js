@@ -6,6 +6,7 @@ import Hunting from '@/views/Hunting'
 import Talk from '@/views/Talk'
 import Academy from '@/views/Academy'
 import Clients from '@/views/Clients'
+import Vacancy from '@/views/Vacancy'
 import Transformation from '@/views/Transformation'
 import Consulting from '@/views/Consulting'
 import Development from '@/views/Development'
@@ -86,6 +87,11 @@ export default new Router({
             name: 'devOps',
             path: '/devOps',
             component: DevOps
+        },
+        {            
+            name: 'vacancy',
+            path: '/vacancy',
+            component: Vacancy
         }
 
 

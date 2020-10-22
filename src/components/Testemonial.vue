@@ -4,7 +4,7 @@
             <div class="col-md-12">
                 <h2 class="colorTitle"><strong>Quem é SIS?</strong></h2>
                 <p class="colorFontDefault">
-                    <strong>O que nossos colboradores andam dizendo?</strong>
+                    <strong>O que nossos colaboradores andam dizendo?</strong>
                 </p>
             </div>
             <div class="col-md-12" style="padding-left:44%">
