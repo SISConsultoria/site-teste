@@ -9,9 +9,7 @@ import Clients from '@/views/Clients'
 import Transformation from '@/views/Transformation'
 import Consulting from '@/views/Consulting'
 import Development from '@/views/Development'
-
-
-
+import SuccessCases from '@/views/SuccessCases'
 
 Vue.use(Router)
 
@@ -62,6 +60,12 @@ export default new Router({
             name: 'development',
             path: '/development',
             component: Development
+        }
+        ,
+        {            
+            name: 'successCases',
+            path: '/successCases',
+            component: SuccessCases
         }
     ]
 });
