@@ -7,10 +7,10 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="../assets/imgSlide1.png">
+            <img src="../assets/imgSlide1.png" class="imgSlider">
           </div>
           <div class="item">
-            <img src="../assets/imgSlider2.png">
+            <img src="../assets/imgSlider2.png" class="imgSlider">
           </div>
         </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -164,9 +164,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-12 middlePartImgVideo">
-            
-        </div>
+        <div class="col-md-12 middlePartImgVideo"></div>
       </div>
       <div class="container" style="margin-top:80px">
         <app-testemonial></app-testemonial>

@@ -574,6 +574,7 @@
     background-image: url('~@/assets/tourCompanyVideo.png');
     min-height: 700px;
     background-position-x: center;
+    cursor: pointer;
 }
 .contentAgileCoaching > div {
     padding-left: 5%;
@@ -733,3 +734,8 @@
 
 
 /* SuccessCases */
+
+.imgSlider {
+    height:750px !important;
+    width: 100%;
+}
