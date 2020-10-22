@@ -129,37 +129,37 @@
             <div class="col-md-3" style="z-index: 999;">
              <img src="../assets/hourProject.png" alt="Hour" class="imgCounterDataSis" />
              <div class="textCounterDataSis">
-               <p>
+               <span>
                  +1,5 milhão de <br/>
                  horas de projetos <br/>
                  nos últimos 4 anos
-               </p>
+               </span>
              </div>
             </div>
             <div class="col-md-3" style="z-index: 999;">
              <img src="../assets/collaborators.png" alt="Hour" class="imgCounterDataSis" />
              <div class="textCounterDataSis">
-               <p>
+               <span>
                  +300 colaboradores
-               </p>
+               </span>
              </div>
             </div>
             <div class="col-md-3" style="z-index: 999;">
              <img src="../assets/training.png" alt="Hour" class="imgCounterDataSis" />
              <div class="textCounterDataSis">
-               <p>
+               <span>
                  +40 mil horas de <br/>
                  treinamentos no ano
-               </p>
+               </span>
              </div>
             </div>
             <div class="col-md-3" style="z-index: 999;">
              <img src="../assets/projects.png" alt="Hour" class="imgCounterDataSis" />
              <div class="textCounterDataSis">
-               <p>
+               <span>
                  +3600 projetos nos <br/>
                  últimos 4 anos
-               </p>
+               </span>
              </div>
             </div>
           </div>
