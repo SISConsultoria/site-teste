@@ -431,3 +431,10 @@
     font-size: 16px;
     width: 100%;
 }
+
+.middlePartImgVideo {
+    margin: 0px 0px;
+    background-image: url('~@/assets/tourCompanyVideo.png');
+    min-height: 700px;
+    background-position-x: center;
+}
