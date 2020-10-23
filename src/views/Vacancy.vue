@@ -14,7 +14,7 @@
                 <div class="col-md-2"><button class="send-button">Buscar</button></div>
             </div>
         </div>
-        <div id="div-vacancy-highlights">
+        <div id="div-vacancy-highlights"  style="display: none;">
             <div class="row">
                 <div class="col-md-4 title">
                     <img src="../assets/vacancy-people.png" />
@@ -122,9 +122,30 @@
                     <p>Resultados da busca:</p>
                 </div>
             </div>
-                <div class="row vacancy-item">
+                <div class="row vacancy-item-normal">
                 <div class="col-md-10">
-                    <h3>Vaga 1 <img src="../assets/eye.png" /> </h3>
+                    <h3>Vaga 1 <a href="javascript:;" class="show-details" @click="showDetails('1')"><img id="img-1" src="../assets/eye.png" /></a></h3>
+                    <div id="job-details-1" class="job-details" style="display: none;">
+                        <p class="job-details-title">Nome da Vaga</p>
+                        <span>
+                            Descrição da função e skills necessárias descrição da função e 
+                            skills necessárias Descrição da função e skills necessárias 
+                            descrição da função e skills necessárias da função e skills 
+                            necessárias Descrição da função e skills necessárias.
+                            Descrição da função e skills necessárias descrição da função e 
+                            skills necessárias Descrição da função e skills necessárias 
+                            descrição da função e skills necessárias da função e skills 
+                            necessárias Descrição da função e skills necessárias.
+                            Descrição da função e skills necessárias descrição da função e 
+                            skills necessárias Descrição da função e skills necessárias 
+                            descrição da função e skills necessárias da função e skills 
+                            necessárias Descrição da função e skills necessárias.
+                        </span><br /><br />
+                        - <span>Destaque 1</span><br />
+                        - <span>Destaque 2</span><br />
+                        - <span>Destaque 3</span><br />
+                        - <span>Destaque 4</span><br />
+                    </div>
                     <p>Descrição da função e skills necessárias descrição da função e 
                         skills necessárias Descrição da função e skills necessárias 
                         descrição da função e skills necessárias da função e skills 
@@ -136,9 +157,30 @@
                 </div>
             </div>
             <div class="row"><hr class="separator-bar" /></div>
-                <div class="row vacancy-item">
+                <div class="row vacancy-item-normal">
                 <div class="col-md-10">
-                    <h3>Vaga 1 <img src="../assets/eye.png" /></h3>
+                    <h3>Vaga 1 <a href="javascript:;" class="show-details" @click="showDetails('2')"><img id="img-2" src="../assets/eye.png" /></a></h3>
+                    <div id="job-details-2" class="job-details" style="display: none;">
+                        <p class="job-details-title">Nome da Vaga</p>
+                        <span>
+                            Descrição da função e skills necessárias descrição da função e 
+                            skills necessárias Descrição da função e skills necessárias 
+                            descrição da função e skills necessárias da função e skills 
+                            necessárias Descrição da função e skills necessárias.
+                            Descrição da função e skills necessárias descrição da função e 
+                            skills necessárias Descrição da função e skills necessárias 
+                            descrição da função e skills necessárias da função e skills 
+                            necessárias Descrição da função e skills necessárias.
+                            Descrição da função e skills necessárias descrição da função e 
+                            skills necessárias Descrição da função e skills necessárias 
+                            descrição da função e skills necessárias da função e skills 
+                            necessárias Descrição da função e skills necessárias.
+                        </span><br /><br />
+                        - <span>Destaque 1</span><br />
+                        - <span>Destaque 2</span><br />
+                        - <span>Destaque 3</span><br />
+                        - <span>Destaque 4</span><br />
+                    </div>
                     <p>Descrição da função e skills necessárias descrição da função e 
                         skills necessárias Descrição da função e skills necessárias 
                         descrição da função e skills necessárias da função e skills 
@@ -150,9 +192,30 @@
                 </div>
             </div>
             <div class="row"><hr class="separator-bar" /></div>
-                <div class="row vacancy-item">
+                <div class="row vacancy-item-normal">
                 <div class="col-md-10">
-                    <h3>Vaga 1 <img src="../assets/eye.png" /></h3>
+                    <h3>Vaga 1 <a href="javascript:;" class="show-details" @click="showDetails('3')"><img id="img-3" src="../assets/eye.png" /></a></h3>
+                    <div id="job-details-3" class="job-details" style="display: none;">
+                        <p class="job-details-title">Nome da Vaga</p>
+                        <span>
+                            Descrição da função e skills necessárias descrição da função e 
+                            skills necessárias Descrição da função e skills necessárias 
+                            descrição da função e skills necessárias da função e skills 
+                            necessárias Descrição da função e skills necessárias.
+                            Descrição da função e skills necessárias descrição da função e 
+                            skills necessárias Descrição da função e skills necessárias 
+                            descrição da função e skills necessárias da função e skills 
+                            necessárias Descrição da função e skills necessárias.
+                            Descrição da função e skills necessárias descrição da função e 
+                            skills necessárias Descrição da função e skills necessárias 
+                            descrição da função e skills necessárias da função e skills 
+                            necessárias Descrição da função e skills necessárias.
+                        </span><br /><br />
+                        - <span>Destaque 1</span><br />
+                        - <span>Destaque 2</span><br />
+                        - <span>Destaque 3</span><br />
+                        - <span>Destaque 4</span><br />
+                    </div>
                     <p>Descrição da função e skills necessárias descrição da função e 
                         skills necessárias Descrição da função e skills necessárias 
                         descrição da função e skills necessárias da função e skills 
@@ -164,10 +227,32 @@
                 </div>
             </div>
             <div class="row"><hr class="separator-bar" /></div>
-                <div class="row vacancy-item">
+                <div class="row vacancy-item-normal">
                 <div class="col-md-10">
-                    <h3>Vaga 1 <img src="../assets/eye.png" /></h3>
-                    <p>Descrição da função e skills necessárias descrição da função e 
+                    <h3>Vaga 1 <a href="javascript:;" class="show-details" @click="showDetails('4')"><img id="img-4" src="../assets/eye.png" /></a></h3>
+                    <div id="job-details-4" class="job-details" style="display: none;">
+                        <p class="job-details-title">Nome da Vaga</p>
+                        <span>
+                            Descrição da função e skills necessárias descrição da função e 
+                            skills necessárias Descrição da função e skills necessárias 
+                            descrição da função e skills necessárias da função e skills 
+                            necessárias Descrição da função e skills necessárias.
+                            Descrição da função e skills necessárias descrição da função e 
+                            skills necessárias Descrição da função e skills necessárias 
+                            descrição da função e skills necessárias da função e skills 
+                            necessárias Descrição da função e skills necessárias.
+                            Descrição da função e skills necessárias descrição da função e 
+                            skills necessárias Descrição da função e skills necessárias 
+                            descrição da função e skills necessárias da função e skills 
+                            necessárias Descrição da função e skills necessárias.
+                        </span><br /><br />
+                        - <span>Destaque 1</span><br />
+                        - <span>Destaque 2</span><br />
+                        - <span>Destaque 3</span><br />
+                        - <span>Destaque 4</span><br />
+                    </div>
+                    <p>
+                        Descrição da função e skills necessárias descrição da função e 
                         skills necessárias Descrição da função e skills necessárias 
                         descrição da função e skills necessárias da função e skills 
                         necessárias Descrição da função e skills necessárias:
@@ -178,12 +263,81 @@
                 </div>
             </div>
         </div>
+        <div id="send-curriculum">
+            <div class="row">
+                <div id="div-curriculum-details" class="col-md-6" style="display: block;">
+                    <h3>Vaga não disponível</h3>
+                    <p>Descrição da função e skills necessárias descrição da função e skills 
+                       necessárias Descrição da função e skills necessárias descrição da função 
+                       e skills ecessárias da funDescrição da função e skills necessárias 
+                       descrição da função e skills necessárias. 
+                       Descrição da função e skills necessárias descrição da função e skills 
+                       necessárias da função e skills necessárias Descrição da função e skills 
+                       ação e skills necessárias Descrição da função e skills necessárias 
+                    </p>
+                       - <span>Destaque 1</span><br />
+                       - <span>Destaque 2</span><br />
+                       - <span>Destaque 3</span><br />
+                       - <span>Destaque 4</span><br />
+                </div>
+                <div id="div-curriculum-not-found" class="col-md-6" style="display: none;">
+                    <h3>Vaga não disponível</h3>
+                    <p>Mas não se preocupe</p>
+                    <h2>Faça o cadastro e envie para o banco de talentos da SIS.</h2>
+                </div>
+                <div id="div-curriculum-send" class="col-md-6">
+                    <p>Preencha os campos:</p>
+                        <form>
+                        <div class="form-group">
+                            <label for="txt-email">Insira o seu e-mail:*</label>
+                            <input type="email" class="form-control" id="txt-email">
+                        </div>
+                        <div class="form-group">
+                            <label for="txt-name">Nome:*</label>
+                            <input type="text" class="form-control" id="txt-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="txt-last-name">Sobrenome:*</label>
+                            <input type="text" class="form-control" id="txt-last-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="txt-phone">Telefone:*</label>
+                            <input type="text" class="form-control" id="txt-phone">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="lbl-cv" for="upl-cv"><a href="javascript:;"><img src="../assets/upload.png" /> Faça o upload do seu CV</a></label>
+                            <input id="upl-cv" type="file" class="upload-photo" />
+                        </div>
+                        <div class="col-md-6">
+                            <button type="submit" class="send-button">Confirmar cadastro</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'vacancy'
+        name: 'vacancy',
+        methods: {
+            showDetails: function (id) {
+                console.log(id);
+                var modal = document.getElementById("job-details-" + id);
+                if(modal.style.display == "block") {
+                    modal.style.display = "none";
+                }
+                else {
+                    var details = document.getElementsByClassName("job-details");
+                    for(let x = 0; x < details.length; x++){
+                        (details[x]).style.display =  "none";
+                    }
+                    modal.style.display = "block";
+                }
+                
+            }
+        }
     }
 </script>
 
