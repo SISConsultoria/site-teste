@@ -50,6 +50,7 @@
         height: 110px;
         width: 110px;
         margin-right: 40px;
+        cursor:pointer;
     }
 
 .divDepoimentos {
@@ -136,7 +137,7 @@
     }
 
     .depoimento:before {
-        top: 69vh;
+        top: 88vh;
     }
 
     #d2:before {
@@ -162,7 +163,7 @@
     }
 
     .depoimento:before {
-        top: 67vh;
+        top: 86vh;
     }
 }
 
@@ -177,7 +178,7 @@
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
         border-bottom: 45px solid #DFDFDF;
-        top: 71vh;
+        top: 91vh;
     }
 
     #d1:before {
@@ -199,7 +200,7 @@
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 412px){
     .imgs{
         overflow:auto;
         display: flex;

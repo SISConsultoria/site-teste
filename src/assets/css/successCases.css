@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .divCases {
+        border: none;
+    }
+
+    .CasesContent {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    .casesLogos {
+        background-size: 70%;
+        float: left;
+        width: 33%;
+    }
+}
+
+@media (max-width: 375px) {
+    .divLogos{
+        display:flex;
+        overflow:auto;
+    }
+    .casesLogos {
+        width: 100px;
+        display: inline-table;
+    }
+}
