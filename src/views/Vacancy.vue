@@ -17,6 +17,7 @@
         <div id="div-vacancy-highlights"  style="display: block;">
             <div class="row">
                 <div class="col-md-4 title">
+                    <h2>Venha fazer parte do nosso time</h2>
                     <img src="../assets/vacancy-people.png" />
                 </div>
                 <div class="col-md-8">
