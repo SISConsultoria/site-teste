@@ -8,7 +8,7 @@
         <div class="row successCasesMain">
             <div class="col-md-5 divCases">
                 <h2>Conheça nossos Cases</h2>
-                <div>
+                <div class="divLogos">
                     <div class="col-md-4 col-sm-2 casesLogos bancos" divcontent="divBancos" @click="abrirDesc"><span>Bancos</span></div>
                     <div class="col-md-4 col-sm-2 casesLogos industria" divcontent="divIndustria" @click="abrirDesc"><span>Indústria</span></div>
                     <div class="col-md-4 col-sm-2 casesLogos saude" divcontent="divSaude" @click="abrirDesc"><span>Saúde</span></div>
@@ -73,4 +73,5 @@
 
 <style>
     @import '../assets/css/mainStyles.css';
+    @import '../assets/css/successCases.css';    
 </style>

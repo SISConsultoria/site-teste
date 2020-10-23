@@ -16,6 +16,10 @@
     margin-top:50px
 }
 
+.d-flex {
+    display: flex;
+}
+
 .colorButtonSis {
     background-color: #910045;
     border-color: #910045;
@@ -780,15 +784,15 @@
     background: red;
 }
 
-#vacancy-page #div-vacancy{
+#vacancy-page #div-vacancy-highlights{
     margin-top: 30px;
 }
 
-#vacancy-page #div-vacancy .title{
+#vacancy-page #div-vacancy-highlights .title{
     min-height: 540px;
 }
 
-#vacancy-page #div-vacancy .title img{
+#vacancy-page #div-vacancy-highlights .title img{
     width: 100%;
 }
 
@@ -816,6 +820,41 @@
 
 #div-result-search{
     padding: 30px;
+}
+
+.img-item-tec {
+    width: 14%;
+    padding: 0px 15px 30px 15px;
+}
+
+.img-item-tec img {
+    width: 100%;
+}
+
+.img-item-benefit {   
+    width: 14%;
+    margin: 0px 20px 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-item-benefit img {
+    width: 75%;
+}
+
+.separator-bar{
+    width: 94%;
+}
+.description {
+    padding: 15px 0 0px 30px;
+}
+.description p{
+    color: white;
+}
+#div-tecnology{
+    background: #303F60;
 }
     .casesDesc.active {
         display: block;
