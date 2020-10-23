@@ -821,11 +821,10 @@
 
 .job-details{
     width: 500px;
-    background: #910045;;
+    background: #910045;
     padding: 15px;
     position: absolute;
-    margin-left: 121px;
-    margin-top: -37px;
+    margin-top: -7px;
     z-index: 1;
     color: white;
 }
