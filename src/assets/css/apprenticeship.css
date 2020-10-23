@@ -47,9 +47,9 @@
     }
 
     .jovemAprendiz img {
-        height: 115px;
-        width: 115px;
-        margin-right: 44px;
+        height: 110px;
+        width: 110px;
+        margin-right: 40px;
     }
 
 .divDepoimentos {
@@ -85,19 +85,24 @@
     }
 
 #d1:before {
-    left: 70px;
+    left: 67px;
 }
 
 #d2:before {
-    left: 226px;
+    left: 215px;
 }
 
 #d3:before {
-    left: 385px;
+    left: 364px;
 }
 
 #d4:before {
-    left: 545px;
+    left: 516px;
 }
+
+#d5:before {
+    left: 665px;
+}
+
 
 /* apprenticeship */

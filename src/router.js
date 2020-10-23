@@ -14,6 +14,7 @@ import AgileCoaching from '@/views/AgileCoaching'
 import SuccessCases from '@/views/SuccessCases'
 import AgileCells from '@/views/AgileCells'
 import DevOps from '@/views/DevOps'
+import Apprenticeship from '@/views/Apprenticeship'
 
 
 
@@ -92,9 +93,11 @@ export default new Router({
             name: 'vacancy',
             path: '/vacancy',
             component: Vacancy
-        }
-
-
-        
+        },        
+        {
+            name: 'apprenticeship',
+            path: '/apprenticeship',
+            component: Apprenticeship
+        }        
     ]
 });
