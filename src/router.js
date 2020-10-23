@@ -12,6 +12,13 @@ import Consulting from '@/views/Consulting'
 import Development from '@/views/Development'
 import AgileCoaching from '@/views/AgileCoaching'
 import SuccessCases from '@/views/SuccessCases'
+import AgileCells from '@/views/AgileCells'
+import DevOps from '@/views/DevOps'
+import Apprenticeship from '@/views/Apprenticeship'
+
+
+
+
 
 Vue.use(Router)
 
@@ -72,10 +79,25 @@ export default new Router({
             path: '/successCases',
             component: SuccessCases
         },
-        {
+        {            
+            name: 'agileCells',
+            path: '/agileCells',
+            component: AgileCells
+        },
+        {            
+            name: 'devOps',
+            path: '/devOps',
+            component: DevOps
+        },
+        {            
             name: 'vacancy',
             path: '/vacancy',
             component: Vacancy
-        }
+        },        
+        {
+            name: 'apprenticeship',
+            path: '/apprenticeship',
+            component: Apprenticeship
+        }        
     ]
 });

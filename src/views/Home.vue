@@ -7,10 +7,10 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="../assets/imgSlide1.png">
+            <img src="../assets/imgSlide1.png" class="imgSlider">
           </div>
           <div class="item">
-            <img src="../assets/imgSlider2.png">
+            <img src="../assets/imgSlider2.png" class="imgSlider">
           </div>
         </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -129,48 +129,60 @@
             <div class="col-md-3" style="z-index: 999;">
              <img src="../assets/hourProject.png" alt="Hour" class="imgCounterDataSis" />
              <div class="textCounterDataSis">
-               <p>
+               <span>
                  +1,5 milhão de <br/>
                  horas de projetos <br/>
                  nos últimos 4 anos
-               </p>
+               </span>
              </div>
             </div>
             <div class="col-md-3" style="z-index: 999;">
              <img src="../assets/collaborators.png" alt="Hour" class="imgCounterDataSis" />
              <div class="textCounterDataSis">
-               <p>
+               <span>
                  +300 colaboradores
-               </p>
+               </span>
              </div>
             </div>
             <div class="col-md-3" style="z-index: 999;">
              <img src="../assets/training.png" alt="Hour" class="imgCounterDataSis" />
              <div class="textCounterDataSis">
-               <p>
+               <span>
                  +40 mil horas de <br/>
                  treinamentos no ano
-               </p>
+               </span>
              </div>
             </div>
             <div class="col-md-3" style="z-index: 999;">
              <img src="../assets/projects.png" alt="Hour" class="imgCounterDataSis" />
              <div class="textCounterDataSis">
-               <p>
+               <span>
                  +3600 projetos nos <br/>
                  últimos 4 anos
-               </p>
+               </span>
              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-12 middlePartImgVideo">
-            
-        </div>
+        <div class="col-md-12 middlePartImgVideo" @click="openModalVideoTour()"></div>
       </div>
       <div class="container" style="margin-top:80px">
         <app-testemonial></app-testemonial>
         <app-blog></app-blog>
+      </div>
+      
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" @click="closeModalVideo()">&times;</span>
+           <div class="row">
+            <div class="col-md-12">
+              <video id="videoTour" width="100%" height="500" controls>
+                <source v-bind:src="urlVideo">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 </template>
@@ -182,12 +194,35 @@
           return {
             urlInstagram: "https://www.instagram.com/sisconsultoriati/",
             urlFacebook: "https://www.facebook.com/SISConsultoria1/",
-            urlLinkedin: "https://www.linkedin.com/company/sisconsultoria/mycompany/"
+            urlLinkedin: "https://www.linkedin.com/company/sisconsultoria/mycompany/",
+            urlVideo : "http://192.168.30.91/video/videoSis.mp4"
           }          
+        },
+        methods: {
+          openModalVideoTour(){
+            var modal = document.getElementById("myModal");
+
+            modal.style.display = "block";
+
+            var video = document.getElementById("videoTour");
+
+            video.play();
+          },
+          closeModalVideo(){
+            var modal = document.getElementById("myModal");
+
+            var video = document.getElementById("videoTour");
+            video.pause(); 
+            video.currentTime = 0;
+            video.load();
+
+            modal.style.display = "none";
+          }
         }
     }
 </script>
 
 <style>
   @import '../assets/css/mainStyles.css';
+  @import '../assets/css/modalCustom.css';
 </style>

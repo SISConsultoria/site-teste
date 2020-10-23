@@ -34,33 +34,23 @@
                   <ul class="dropdown-menu navSomosSis">
                     <li><a class="dropdown-item" href="#">Sobre</a></li>
                     <li><a class="dropdown-item" href="#">Clientes e Parceiros</a></li>
-                    <li><a class="dropdown-item" href="#">Certificações e Premiações</a></li> 
-                    <li class="dropdown dropdown-submenu">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Carreira <span class="caret-right"></span>
-                        </a>
-                        <ul class="dropdown-menu navSomosSisCarreira">
-                          <li><a class="dropdown-item" href="#">Trabalhe conosco</a></li>
-                          <li><a class="dropdown-item" href="#">Employer branding </a></li>  
-                        </ul>
-                    </li>            
-                    <li><a class="dropdown-item" href="#">Aprendizagem na SIS</a></li>
+                    <li><a class="dropdown-item" href="#/successCases">Cases de Sucesso</a></li>  
                   </ul>
               </li>   
               <li class="dropdown">
                 <a class="dropdown-toggle purple" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  SOLUÇÕES TECNOLÓGICAS <span class="caret"></span>
+                  SERVIÇOS E SOLUÇÕES TECNOLÓGICAS <span class="caret"></span>
                 </a> 
-                <ul class="dropdown-menu navSolucoes">
-                  <li><a class="dropdown-item" href="#">Cloud Computing</a></li>
-                  <li><a class="dropdown-item" href="#">Soluções de BI, Big data e Analytics</a></li>
-                  <li><a class="dropdown-item" href="#">Machine learning e Deep learning</a></li>
-                  <li><a class="dropdown-item" href="#">Soluções de ERP</a></li>    
-                  <li><a class="dropdown-item" href="#">Outsystem</a></li>
-                  <li><a class="dropdown-item" href="#/successCases">Cases de Sucesso</a></li>
-                  <li><a class="dropdown-item" href="#">Outsourcing</a></li>
-                  <li><a class="dropdown-item" href="#">Projetos Multiplataforma</a></li>
-                  <li><a class="dropdown-item" href="#">Sustentação de ambientes e canais</a></li>
+                <ul class="dropdown-menu navSolucoes">  
+                  <li><a class="dropdown-item" href="#">Consultoria Estratégica</a></li>
+                  <li><a class="dropdown-item" href="#">Desenvolvimento Web, Mobile e Mainframe</a></li>
+                  <li><a class="dropdown-item" href="#">Sustentação de Ambientes</a></li>
+                  <li><a class="dropdown-item" href="#">Dados e Inteligência Aplicada </a></li>    
+                  <li><a class="dropdown-item" href="#">Serviços de Cloud Computing</a></li>
+                  <li><a class="dropdown-item" href="#">Soluções de ERP </a></li>
+                  <li><a class="dropdown-item" href="#">Soluções de Low Code (Outsystem, PEGA)</a></li>
+                  <li><a class="dropdown-item" href="#">Quality Assurance</a></li>
+                  <li><a class="dropdown-item" href="#">Sustentação de Ambientes e Canais</a></li>
                 </ul>
               </li>
               <li class="dropdown">
@@ -68,16 +58,24 @@
                   INOVAÇÃO <span class="caret"></span>
                 </a> 
                 <ul class="dropdown-menu navInovacao" >
+                  <li><a class="dropdown-item" href="#">Agile Coaching em metodologias e frameworks ágeis </a></li>
                   <li><a class="dropdown-item" href="#">Design Thinking</a></li>
+                  <li><a class="dropdown-item" href="#">Transformação Digital</a></li>    
+                  <li><a class="dropdown-item" href="#">Celulas Ágeis - Squads</a></li>
+                  <li><a class="dropdown-item" href="#">User Experience e User Interface (UX/UI)</a></li>
                   <li><a class="dropdown-item" href="#">Devops</a></li>
-                  <li><a class="dropdown-item" href="#">Consultoria de Negócios</a></li>    
-                  <li><a class="dropdown-item" href="#">Mapeamento e Revisão de Processos</a></li>
-                  <li><a class="dropdown-item" href="#">UX</a></li>
-                  <li><a class="dropdown-item" href="#">Transformação Digital</a></li>
-                  <li><a class="dropdown-item" href="#">Células ágeis</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="#" class="dropdown-item lightGray">BLOG</a></li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle orange" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CARREIRA <span class="caret"></span></a>
+                  <ul class="dropdown-menu navSomosSis">
+                    <li><a class="dropdown-item" href="#">Trabalhe Conosco</a></li>
+                    <li><a class="dropdown-item" href="#">Employer Branding</a></li>
+                    <li><a class="dropdown-item" href="#">Inova SIS</a></li>             
+                    <li><a class="dropdown-item" href="#/Apprenticeship">Aprendizagem na SIS</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown"><a href="#" class="dropdown-item purple">BLOG</a></li>
               <li class="dropdown gray"><a href="#" class="dropdown-item ">CONTATO</a></li>
               <li class="dropdown " id="navTrabalheLi"><a href="#" class="navTrabalhe">TRABALHE NA SIS</a></li>
             </ul>
@@ -163,7 +161,6 @@
       </div>
   </div>
 </template>
-
 <style>
   @import './assets/css/mainStyles.css';
 </style>
