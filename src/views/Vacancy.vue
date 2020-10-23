@@ -14,7 +14,7 @@
                 <div class="col-md-2"><button class="send-button">Buscar</button></div>
             </div>
         </div>
-        <div id="div-vacancy-highlights"  style="display: none;">
+        <div id="div-vacancy-highlights"  style="display: block;">
             <div class="row">
                 <div class="col-md-4 title">
                     <img src="../assets/vacancy-people.png" />
@@ -263,7 +263,7 @@
                 </div>
             </div>
         </div>
-        <div id="send-curriculum">
+        <div id="send-curriculum" style="display: none;">
             <div class="row">
                 <div id="div-curriculum-details" class="col-md-6" style="display: block;">
                     <h3>Vaga não disponível</h3>
@@ -288,28 +288,30 @@
                 <div id="div-curriculum-send" class="col-md-6">
                     <p>Preencha os campos:</p>
                         <form>
-                        <div class="form-group">
+                        <div class="col-md-12 form-group">
                             <label for="txt-email">Insira o seu e-mail:*</label>
                             <input type="email" class="form-control" id="txt-email">
                         </div>
-                        <div class="form-group">
+                        <div class="col-md-12 form-group">
                             <label for="txt-name">Nome:*</label>
                             <input type="text" class="form-control" id="txt-name">
                         </div>
-                        <div class="form-group">
+                        <div class="col-md-12 form-group">
                             <label for="txt-last-name">Sobrenome:*</label>
                             <input type="text" class="form-control" id="txt-last-name">
                         </div>
-                        <div class="form-group">
+                        <div class="col-md-12 form-group">
                             <label for="txt-phone">Telefone:*</label>
                             <input type="text" class="form-control" id="txt-phone">
                         </div>
-                        <div class="col-md-6">
-                            <label class="lbl-cv" for="upl-cv"><a href="javascript:;"><img src="../assets/upload.png" /> Faça o upload do seu CV</a></label>
-                            <input id="upl-cv" type="file" class="upload-photo" />
-                        </div>
-                        <div class="col-md-6">
-                            <button type="submit" class="send-button">Confirmar cadastro</button>
+                        <div class="row">
+                            <div class="col-md-6">
+                               <label class="lbl-cv" for="upl-cv"><a href="javascript:;"><img src="../assets/upload.png" /> Faça o upload do seu CV</a></label>
+                               <input id="upl-cv" type="file" class="upload-photo" />
+                            </div>
+                            <div class="col-md-6">
+                               <button type="submit" class="send-button">Confirmar cadastro</button>
+                            </div>
                         </div>
                     </form>
                 </div>
