@@ -130,17 +130,18 @@
              <img src="../assets/hourProject.png" alt="Hour" class="imgCounterDataSis" />
              <div class="textCounterDataSis">
                <span>
-                 +1,5 milhão de <br/>
+                 <span id="idCounterHourProject"></span> milhão de <br/>
                  horas de projetos <br/>
                  nos últimos 4 anos
                </span>
+               
              </div>
             </div>
             <div class="col-md-3" style="z-index: 999;">
              <img src="../assets/collaborators.png" alt="Hour" class="imgCounterDataSis" />
              <div class="textCounterDataSis">
                <span>
-                 +300 colaboradores
+                 <span id=idCounterEmployer></span> colaboradores
                </span>
              </div>
             </div>
@@ -148,7 +149,7 @@
              <img src="../assets/training.png" alt="Hour" class="imgCounterDataSis" />
              <div class="textCounterDataSis">
                <span>
-                 +40 mil horas de <br/>
+                 <span id="idCounterTraining"></span> mil horas de <br/>
                  treinamentos no ano
                </span>
              </div>
@@ -157,7 +158,7 @@
              <img src="../assets/projects.png" alt="Hour" class="imgCounterDataSis" />
              <div class="textCounterDataSis">
                <span>
-                 +3600 projetos nos <br/>
+                 <span id="idCounterProject"></span> projetos nos <br/>
                  últimos 4 anos
                </span>
              </div>
@@ -188,6 +189,12 @@
 </template>
 
 <script>
+    import Vue from 'vue'
+    Vue.prototype.$startedCounterHourProject = false;
+    Vue.prototype.$startedCounterEmployer = false;
+    Vue.prototype.$startedCounterTraining = false;
+    Vue.prototype.$startedCounterProject = false;
+
     export default {
         name: "home",
         data: () => {
@@ -197,6 +204,12 @@
             urlLinkedin: "https://www.linkedin.com/company/sisconsultoria/mycompany/",
             urlVideo : "http://192.168.30.91/video/videoSis.mp4"
           }          
+        },
+        created() {
+          window.addEventListener('scroll', this.handleScroll);
+        },
+         destroyed() {
+            window.removeEventListener('scroll', this.handleScroll);
         },
         methods: {
           openModalVideoTour(){
@@ -217,7 +230,121 @@
             video.load();
 
             modal.style.display = "none";
-          }
+          },
+          animateCounterHourProject(id, start, end, duration, addicionalValue, subsitute) {       
+              if (!this.$startedCounterHourProject) {
+                  if (start === end) return;
+                  this.$startedCounterHourProject = true;
+                  var range = end - start;
+                  var current = start;
+                  var increment = end > start ? 1 : -1;
+                  var stepTime = Math.abs(Math.floor(duration / range));
+                  var obj = document.getElementById(id);
+                  var timer = setInterval(function () {
+                      current += increment;
+                      obj.innerHTML = current;
+                     if(current == end) {
+                        clearInterval(timer);
+
+                        if(addicionalValue !== "") {
+                          if(subsitute){
+                            obj.innerHTML = addicionalValue;
+                          }
+                          else{
+                            obj.innerHTML = subsitute + current
+                          }
+                        }
+                      }
+                  }, stepTime);
+              }
+            },
+            animateCounterEmployer(id, start, end, duration, addicionalValue, subsitute) {       
+              if (!this.$startedCounterEmployer) {
+                  if (start === end) return;
+                  this.$startedCounterEmployer = true;
+                  var range = end - start;
+                  var current = start;
+                  var increment = end > start ? 1 : -1;
+                  var stepTime = Math.abs(Math.floor(duration / range));
+                  var obj = document.getElementById(id);
+                  var timer = setInterval(function () {
+                      current += increment;
+                      obj.innerHTML = current;
+                      if(current == end) {
+                        clearInterval(timer);
+
+                        if(addicionalValue !== "") {
+                          if(subsitute){
+                            obj.innerHTML = addicionalValue;
+                          }
+                          else{
+                            obj.innerHTML = subsitute + current
+                          }
+                        }
+                      }
+                  }, stepTime);
+              }
+            },
+            animateCounterTraining(id, start, end, duration, addicionalValue, subsitute) {       
+              if (!this.$startedCounterTraining) {
+                  if (start === end) return;
+                  this.$startedCounterTraining = true;
+                  var range = end - start;
+                  var current = start;
+                  var increment = end > start ? 1 : -1;
+                  var stepTime = Math.abs(Math.floor(duration / range));
+                  var obj = document.getElementById(id);
+                  var timer = setInterval(function () {
+                      current += increment;
+                      obj.innerHTML = current;
+                      if(current == end) {
+                        clearInterval(timer);
+
+                        if(addicionalValue !== "") {
+                          if(subsitute){
+                            obj.innerHTML = addicionalValue;
+                          }
+                          else{
+                            obj.innerHTML = subsitute + current
+                          }
+                        }
+                      }
+                  }, stepTime);
+              }
+            },
+            animateCounterProject(id, start, end, duration, addicionalValue, subsitute) {       
+              if (!this.$startedCounterProject) {
+                  if (start === end) return;
+                  this.$startedCounterProject = true;
+                  var range = end - start;
+                  var current = start;
+                  var increment = end > start ? 1 : -1;
+                  var stepTime = Math.abs(Math.floor(duration / range));
+                  var obj = document.getElementById(id);
+                  var timer = setInterval(function () {
+                      current += increment;
+                      obj.innerHTML = current;
+                      if(current == end) {
+                        clearInterval(timer);
+
+                        if(addicionalValue !== "") {
+                          if(subsitute){
+                            obj.innerHTML = addicionalValue;
+                          }
+                          else{
+                            obj.innerHTML = subsitute + current
+                          }
+                        }
+                      }
+                  }, stepTime);
+              }
+            },
+            handleScroll() {
+                this.animateCounterHourProject('idCounterHourProject', 0, 1500, 5000, "+1,5", true);
+                this.animateCounterEmployer('idCounterEmployer', 0, 300, 5000, "+300", true);     
+                this.animateCounterTraining('idCounterTraining', 0, 400, 5000, "+40", true);       
+                this.animateCounterProject('idCounterProject', 0, 300, 5000, "+3600", true);     
+            }
         }
     }
 </script>
