@@ -77,7 +77,7 @@
               </li>
               <li class="dropdown"><a href="#" class="dropdown-item purple">BLOG</a></li>
               <li class="dropdown gray"><a href="#" class="dropdown-item ">CONTATO</a></li>
-              <li class="dropdown " id="navTrabalheLi"><a href="/+#/vacancy" class="navTrabalhe">TRABALHE NA SIS</a></li>
+              <li class="dropdown " id="navTrabalheLi"><a href="/#/vacancy" class="navTrabalhe">TRABALHE NA SIS</a></li>
             </ul>
           </div>
         </div>
