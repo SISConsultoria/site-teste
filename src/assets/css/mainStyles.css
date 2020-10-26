@@ -174,8 +174,19 @@
 .dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
   text-decoration: none;
   background-color: transparent !important;
-}   
 
+}
+
+.dropdown-menu {
+    left: -1px;
+}
+
+
+@media (min-width: 768px){
+    .dropdown-menu {
+        left: 0 !important;
+    }
+}
   
 @media (max-width: 767px) {
 
@@ -281,10 +292,10 @@
     color:white !important;
     font-size:12px;
 }
-.navInovacao{
-    padding:5% 2%;  
-    background-color: hsl(331, 100%, 28% ,0.7) !important; 
-
+.navInovacao {
+    padding: 5% 2%;
+    background-color: hsl(331, 100%, 28%,0.7) !important;
+    width: fit-content;
 }
 .navInovacao > li> a {
     color:white !important;
@@ -312,7 +323,7 @@
     border-radius: 20px;
     background-color: orange !important; 
     color:white !important;
-    font-size:10px;
+    font-size:14px;
 }
 #navTrabalheLi{
     background-image: linear-gradient(to right, #910045 ,hsl(0, 0%, 40%, 0));
