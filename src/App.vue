@@ -69,7 +69,7 @@
               <li class="dropdown">
                   <a href="#" class="dropdown-toggle orange" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CARREIRA <span class="caret"></span></a>
                   <ul class="dropdown-menu navSomosSis">
-                    <li><a class="dropdown-item" href="#">Trabalhe Conosco</a></li>
+                    <li><a class="dropdown-item" href="/#/vacancy">Trabalhe Conosco</a></li>
                     <li><a class="dropdown-item" href="#">Employer Branding</a></li>
                     <li><a class="dropdown-item" href="#">Inova SIS</a></li>             
                     <li><a class="dropdown-item" href="#/Apprenticeship">Aprendizagem na SIS</a></li>
@@ -77,7 +77,7 @@
               </li>
               <li class="dropdown"><a href="#" class="dropdown-item purple">BLOG</a></li>
               <li class="dropdown gray"><a href="#" class="dropdown-item ">CONTATO</a></li>
-              <li class="dropdown " id="navTrabalheLi"><a href="#" class="navTrabalhe">TRABALHE NA SIS</a></li>
+              <li class="dropdown " id="navTrabalheLi"><a href="/+#/vacancy" class="navTrabalhe">TRABALHE NA SIS</a></li>
             </ul>
           </div>
         </div>
