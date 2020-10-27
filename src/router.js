@@ -15,6 +15,7 @@ import SuccessCases from '@/views/SuccessCases'
 import AgileCells from '@/views/AgileCells'
 import DevOps from '@/views/DevOps'
 import Apprenticeship from '@/views/Apprenticeship'
+import InovaSIS from '@/views/InovaSIS'
 
 
 
@@ -98,6 +99,11 @@ export default new Router({
             name: 'apprenticeship',
             path: '/apprenticeship',
             component: Apprenticeship
-        }        
+        },
+        {
+            name: 'inovaSIS',
+            path: '/inovaSIS',
+            component: InovaSIS
+        }          
     ]
 });
