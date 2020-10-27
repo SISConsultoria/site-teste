@@ -71,7 +71,7 @@
                   <ul class="dropdown-menu navSomosSis">
                     <li><a class="dropdown-item" href="/#/vacancy">Trabalhe Conosco</a></li>
                     <li><a class="dropdown-item" href="/#/talk">Employer Branding</a></li>
-                    <li><a class="dropdown-item" href="#">Inova SIS</a></li>             
+                    <li><a class="dropdown-item" href="#/InovaSIS">Inova SIS</a></li>             
                     <li><a class="dropdown-item" href="#/Apprenticeship">Aprendizagem na SIS</a></li>
                   </ul>
               </li>

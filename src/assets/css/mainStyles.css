@@ -174,8 +174,19 @@
 .dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
   text-decoration: none;
   background-color: transparent !important;
-}   
 
+}
+
+.dropdown-menu {
+    left: -1px;
+}
+
+
+@media (min-width: 768px){
+    .dropdown-menu {
+        left: 0 !important;
+    }
+}
   
 @media (max-width: 767px) {
 
@@ -260,7 +271,7 @@
 }
 .navSomosSis> li > a {
     color:white !important;
-    font-size:12px;
+    font-size:13px;
 }
 .navSomosSisCarreira {  
     background-color:rgba(255, 165, 0, 0.7)!important; 
@@ -279,16 +290,16 @@
 }
 .navSolucoes > li> a {
     color:white !important;
-    font-size:12px;
+    font-size:14px;
 }
-.navInovacao{
-    padding:5% 2%;  
-    background-color: hsl(331, 100%, 28% ,0.7) !important; 
-
+.navInovacao {
+    padding: 5% 2%;
+    background-color: hsl(331, 100%, 28%,0.7) !important;
+    width: fit-content;
 }
 .navInovacao > li> a {
     color:white !important;
-    font-size:12px;
+    font-size:14px;
 }
 .navBlog{
   
@@ -297,7 +308,7 @@
 }
 .navBlog > li> a {
     color:white !important;
-    font-size:12px;
+    font-size:14px;
 }
 .navContato {
 
@@ -306,13 +317,13 @@
 }
 .navContato > li> a {
     color:white !important;
-    font-size:12px;
+    font-size:14px;
 }
 .navTrabalhe{
     border-radius: 20px;
     background-color: orange !important; 
     color:white !important;
-    font-size:10px;
+    font-size:14px;
 }
 #navTrabalheLi{
     background-image: linear-gradient(to right, #910045 ,hsl(0, 0%, 40%, 0));
@@ -753,10 +764,15 @@
       padding-top: 5%;
   }
   
-  #vacancy-page  .header > div > h1,p {
+  #vacancy-page  .header > div > h1 {
     color:black;
     font-weight: bolder;
 }
+
+    #vacancy-page .header > div > p {
+        color: black;
+        font-weight: bolder;
+    }
 
 #vacancy-page #div-search{
     padding: 15px;
