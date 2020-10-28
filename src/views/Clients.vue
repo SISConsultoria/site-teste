@@ -15,29 +15,29 @@
         <div class="row contentClientes">
             <div >
                 <p>Contamos com clientes e parceiros que fazem parte do nosso caminho de sucesso.</p>
-                <p>Conheça alguns deles!</p>
+                <p  style="color:black;">Conheça alguns deles!</p>
             </div>
         </div>
         <div class="row contentImgsClientes" >
             <div>
-                <p>
+                <p style="color:black;">
                     Clientes
                 </p>
                 <div id="small-img" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
                     <ul style="list-style-type:none;"> 
-                        <li class="liClients"><img src="../assets/logo_digicon.png" class="img-responsive inline-block imgClients"></li>
+                        <li class="liClients"><img src="../assets/logo_bradesco.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_movida.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_odontoPrev.png" class="img-responsive inline-block imgClients"></li>
-                        <li class="liClients"><img src="../assets/logo_digicon.png" class="img-responsive inline-block imgClients"></li>
+                        <li class="liClients"><img src="../assets/logo_embracon.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_natura.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_riachuelo.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_fis.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_safra.png" class="img-responsive inline-block imgClients"></li>
-                        <li class="liClients"><img src="../assets/logo_digicon.png" class="img-responsive inline-block imgClients"></li>
-                        <li class="liClients"><img src="../assets/logo_digicon.png" class="img-responsive inline-block imgClients"></li>
+                        <li class="liClients"><img src="../assets/logo_vale.png" class="img-responsive inline-block imgClients"></li>
+                        <li class="liClients"><img src="../assets/logo_gol.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_sompo.png" class="img-responsive inline-block imgClients"></li>                        
                         <li class="liClients"><img src="../assets/logo_bradesco_seguros.png" class="img-responsive inline-block imgClients"></li>
-                        <li class="liClients"><img src="../assets/logo_mapfre.png" class="img-responsive inline-block imgClients"></li>
+                        <li class="liClients"><img src="../assets/logo_mapfre1.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_pasa.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_umc.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_estapar.png" class="img-responsive inline-block imgClients"></li>
@@ -47,8 +47,8 @@
                         <li class="liClients"><img src="../assets/logo_biotronik.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_bradesco_cartoes.png" class="img-responsive inline-block imgClients"></li>
                         <li class="liClients"><img src="../assets/logo_ccr.png" class="img-responsive inline-block imgClients"></li>
-                        <li class="liClients"><img src="../assets/logo_digicon.png" class="img-responsive inline-block imgClients"></li>
-                        <li class="liClients"><img src="../assets/logo_digicon.png" class="img-responsive inline-block imgClients"></li>      
+                        <li class="liClients"><img src="../assets/logo_credz.png" class="img-responsive inline-block imgClients"></li>
+                        <li class="liClients"><img src="../assets/logo_vilavelha.png" class="img-responsive inline-block imgClients"></li>      
                     </ul>
                 </div>
             </div>    

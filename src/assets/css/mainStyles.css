@@ -396,7 +396,7 @@
     border: 0 none;
     display: inline-block;
     height: auto;
-    max-width:50%;
+    max-width:65%;
     vertical-align: middle;
 
 }
@@ -461,7 +461,7 @@
 
 /* Transformation */
 .headerTransformation{
-    background-image: url('~@/assets/bgTransformation.png');
+    background-image: url('~@/assets/bg_transformation1.png');
     background-size:cover;
     min-height: 300px;
 }
@@ -493,6 +493,10 @@
     color: #666666;
     font-weight: bolder;
 }
+.contentTransformation1 {
+    padding-bottom: 5%;
+}
+
 .contentTransformation1 div:first-child{
     padding: 0 0 !important;
 }
@@ -566,17 +570,7 @@
     color:white;
     font-weight: bolder;
 }
-.contentTransformation1{
-    background-image: url('~@/assets/bgDevelopmentContent.png');
-    background-repeat: no-repeat;
-    /* background-size:cover; */
-    min-height: 500px;
-    padding-top: 50px;
-    background-position-x: center;
-    background-size: auto;
-    background-size: 420px;
-    background-position-y: center;
-}
+
 
 /* Development */
 
@@ -598,6 +592,8 @@
 .contentAgileCoaching > div {
     padding-left: 5%;
     padding-top: 5%;
+    padding-bottom: 5%;
+
 }
 .contentAgileCoaching > div> p {
     color:#868686;
@@ -615,13 +611,14 @@
 
 .headeragileCells {
 
-    background-image: url('~@/assets/bgAgileCoaching.png');
+    background-image: url('~@/assets/bgAgilecells.png');
     background-size:cover;
     min-height: 300px;
 }
 .contentagileCells > div {
     padding-left: 5%;
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 .contentagileCells > div> p {
     color:#868686;
@@ -646,6 +643,7 @@
 .contentDevOps > div {
     padding-left: 5%;
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 .contentDevOps > div> p {
     color:#868686;
@@ -659,6 +657,323 @@
 }
 
 /* Dev Ops */
+
+
+/* Cloud */
+
+.headerCloud {
+
+    background-image: url('~@/assets/bg_cloud.png');
+    background-size:cover;
+    min-height: 300px;
+}
+.contentCloud > div {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contentCloud > div> p {
+    color:#868686;
+    font-size: 15px;   
+}
+.contentCloud > div > p:first-child
+{
+    font-size: 25px;
+    color:black;
+    padding-bottom: 20px;
+}
+
+/* Cloud */
+
+/* Strategic */
+
+.headerStrategic {
+
+    background-image: url('~@/assets/bg_strategic.png');
+    background-size:cover;
+    min-height: 300px;
+}
+.contentStrategic > div {
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contentStrategic > div> p {
+    color:#868686;
+    font-size: 15px;   
+}
+.contentStrategic > div > p:first-child
+{
+    font-size: 25px;
+    color:black;
+    padding-bottom: 20px;
+}
+
+/* Strategic */
+
+
+/* Agile Coaching */
+.headerAgileCoaching {
+
+    background-image: url('~@/assets/bgAgileCoaching.png');
+    background-size:cover;
+    min-height: 300px;
+}
+
+.middlePartImgVideo {
+    margin: 0px 0px;
+    background-image: url('~@/assets/tourCompanyVideo.png');
+    min-height: 700px;
+    background-position-x: center;
+    cursor: pointer;
+}
+.contentAgileCoaching > div {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.contentAgileCoaching > div> p {
+    color:#868686;
+    font-size: 15px;   
+}
+.contentAgileCoaching > div > p:first-child
+{
+    font-size: 25px;
+    color:black;
+    padding-bottom: 20px;
+}
+/* Agile Coaching */
+
+
+/* Sustentation */
+
+.headerSustentation {
+
+    background-image: url('~@/assets/bg_sustentation.png');
+    background-size:cover;
+    min-height: 300px;
+}
+.contentSustentation > div {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contentSustentation > div> p {
+    color:#868686;
+    font-size: 15px;   
+}
+.contentSustentation > div > p:first-child
+{
+    font-size: 25px;
+    color:black;
+    padding-bottom: 20px;
+}
+
+/* Sustentation */
+
+/* Erp */
+
+.headerErp {
+
+    background-image: url('~@/assets/bg_erp.png');
+    background-size:cover;
+    min-height: 300px;
+}
+.contentErp > div {
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contentErp > div> p {
+    color:#868686;
+    font-size: 15px;   
+}
+.contentErp > div > p:first-child
+{
+    font-size: 25px;
+    color:black;
+    padding-bottom: 20px;
+}
+
+/* Erp */
+
+/* Quality */
+
+.headerQuality {
+
+    background-image: url('~@/assets/bg_quality.png');
+    background-size:cover;
+    min-height: 300px;
+}
+.contentQuality > div:first-child {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contentQuality > div:last-child {
+ 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contentQuality > div > p {
+    color:#868686;
+    font-size: 15px;   
+}
+.contentQuality > div > p:first-child
+{
+    font-size: 25px;
+    color:black;
+    padding-bottom: 20px;
+}
+.contentQuality > div > ul {
+  list-style-type: none;
+  padding-left: 0;
+  color:black;
+
+}
+.contentQuality > div > ul > li{
+
+    color:black;
+    font-weight: bolder;
+    font-size: 12px;
+  }
+
+/* Quality */
+
+/* Design */
+
+.headerDesign {
+
+    background-image: url('~@/assets/bg_design.png');
+    background-size:cover;
+    min-height: 300px;
+}
+.contentDesign > div:first-child {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contentDesign > div:last-child {
+ 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contentDesign > div > p {
+    color:#868686;
+    font-size: 15px;   
+}
+.contentDesign > div > p:first-child
+{
+    font-size: 25px;
+    color:black;
+    padding-bottom: 20px;
+}
+.contentDesign > div > ul {
+  list-style-type: none;
+  padding-left: 0;
+  color:black;
+
+}
+.contentDesign > div > ul > li{
+
+    color:black;
+    font-weight: bolder;
+    font-size: 12px;
+  }
+
+/* Design */
+
+/* ux */
+
+.headerUx {
+
+    background-image: url('~@/assets/bg_ux.png');
+    background-size:cover;
+    min-height: 300px;
+}
+.contentUx > div:first-child {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contentUx > div:last-child {
+
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contentUx > div> p {
+    color:#868686;
+    font-size: 15px;   
+}
+.contentUx > div > p:first-child
+{
+    font-size: 25px;
+    color:black;
+    padding-bottom: 20px;
+}
+
+/* ux */
+
+
+/* low Code */
+
+.headerLowCode {
+
+    background-image: url('~@/assets/bg_lowcode.png');
+    background-size:cover;
+    min-height: 300px;
+}
+.contentLowCode > div {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contentLowCode > div> p {
+    color:#868686;
+    font-size: 15px;   
+}
+.contentLowCode > div > p:first-child
+{
+    font-size: 25px;
+    color:black;
+    padding-bottom: 20px;
+}
+
+.contentLowCodeMid {
+
+    background-color: lightgray;
+}
+.contentLowCodeMid > div:first-child{
+
+    display: flex;
+    height: 150px;
+}
+.contentLowCodeMid > div:first-child > p{
+
+  text-align: center;
+  align-self: center;
+  padding-left: 20%;
+  font-size: 20px;    
+  font-weight: bolder;
+}
+.contentLowCodeMid > div > ul {
+    list-style-type: none;
+    padding-left: 0;
+    color:black;
+    padding-top: 20px;
+  }
+.contentLowCodeList > ul > li{
+    font-weight: bolder;
+    color:black;
+}
+.contentLowCodeMid > div:last-child{
+    padding: 2% 2% 2% 4%;
+    font-size: 12px;
+}
+/* low Code */
+
 
 /* SuccessCases */
 
@@ -962,5 +1277,5 @@
 .imgSlider {
     height:750px !important;
     width: 100%;
-    
+
 }
