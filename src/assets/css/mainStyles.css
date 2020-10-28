@@ -271,7 +271,7 @@
 }
 .navSomosSis> li > a {
     color:white !important;
-    font-size:12px;
+    font-size:13px;
 }
 .navSomosSisCarreira {  
     background-color:rgba(255, 165, 0, 0.7)!important; 
@@ -290,7 +290,7 @@
 }
 .navSolucoes > li> a {
     color:white !important;
-    font-size:12px;
+    font-size:14px;
 }
 .navInovacao {
     padding: 5% 2%;
@@ -299,7 +299,7 @@
 }
 .navInovacao > li> a {
     color:white !important;
-    font-size:12px;
+    font-size:14px;
 }
 .navBlog{
   
@@ -308,7 +308,7 @@
 }
 .navBlog > li> a {
     color:white !important;
-    font-size:12px;
+    font-size:14px;
 }
 .navContato {
 
@@ -317,7 +317,7 @@
 }
 .navContato > li> a {
     color:white !important;
-    font-size:12px;
+    font-size:14px;
 }
 .navTrabalhe{
     border-radius: 20px;
@@ -1079,10 +1079,15 @@
       padding-top: 5%;
   }
   
-  #vacancy-page  .header > div > h1,p {
+  #vacancy-page  .header > div > h1 {
     color:black;
     font-weight: bolder;
 }
+
+    #vacancy-page .header > div > p {
+        color: black;
+        font-weight: bolder;
+    }
 
 #vacancy-page #div-search{
     padding: 15px;

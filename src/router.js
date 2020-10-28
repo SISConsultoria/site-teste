@@ -23,6 +23,10 @@ import Quality from '@/views/Quality'
 import Design from '@/views/Design'
 import Ux from '@/views/Ux'
 import LowCode from '@/views/LowCode'
+import InovaSIS from '@/views/InovaSIS'
+
+
+
 
 
 Vue.use(Router)
@@ -143,7 +147,11 @@ export default new Router({
             name: 'lowCode',
             path: '/lowCode',
             component: LowCode
+        },        
+        {
+            name: 'inovaSIS',
+            path: '/inovaSIS',
+            component: InovaSIS
         }      
-        
-    ]
+    ] 
 });
